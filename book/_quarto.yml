@@ -6,10 +6,10 @@ execute:
   freeze: auto
 
 book:
-  title: "Book Title"
-  subtitle: "Subtitle"
-  author: "Koen Hufkens"
-  date: "2023/01/01"
+  title: "AGDS Proseminar"
+  subtitle: "Course logistics and resources"
+  author: "Pepa Arán"
+  date: "2023/08/16"
   page-navigation: true
   chapters:
     - index.qmd
