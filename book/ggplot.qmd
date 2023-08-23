@@ -1,71 +1,26 @@
 ---
-title: "ggplot demo"
+title: "How to cite"
 editor: visual
 engine: knitr
 ---
 
-```{r}
-library(ggplot2)
+Properly citing scientific literature is crucial for good research. You should always acknowledge the work of other researchers from which you took inspiration and data for your project and provide a context citing relevant scientific literature. Here we will shortly explain how you can compile a bibliography, directly from RStudio, and cite all the relevant papers and datasets in your report.
 
-ggplot(data = mtcars, mapping = aes(x = mpg, y = hp)) + 
-  geom_point()
-```
+All papers, books, datasets, code bases, etc. have an associated Digital Object Identifier (DOI). You can use it to search for publications online, but also to easily add citations to your project report - and future research output.
 
-<!-- <html> -->
+![Get the DOI associated with a paper, from the online journal.](images/paper_doi.png)
 
-<!-- ```{=html} -->
-<!-- <script type="module"> -->
+## Adding citations in RStudio
 
-<!-- import { WebR } from 'https://webr.r-wasm.org/latest/webr.mjs';  -->
-<!-- globalThis.webR = new WebR({SW_URL: "https://bluegreen-labs.github.io/R_book_template/"});  -->
-<!-- await globalThis.webR.init();  -->
-<!-- globalThis.webRCodeShelter = await new globalThis.webR.Shelter(); -->
-<!-- await globalThis.webR.installPackages(['ggplot2']) -->
+While you edit your `report.Rmd` file on RStudio, you can choose to work on the **Source** or **Visual** editors for RMarkdown files. The first allows to see the raw text/code, while the second already shows a rough preview of the rendered output from your markdown code.
 
-<!-- </script> -->
-<!-- ``` -->
-<!-- </html> -->
+It's very easy to properly add citations from the **Visual** editor. You just need to click on **Insert \> \@ Citation** to open the RStudio dialogue to create a citation.
 
-<!-- ::: callout-warning -->
-<!-- Installing and loading ggplot2 on webR takes a little while. -->
-<!-- ::: -->
+![How to add a citation to your report in RStudio.](images/add_citation.png){fig-align="center"}
 
-<!-- ### Basic plotting -->
+Next, click on **From DOI** and paste the DOI associated with the paper, book or dataset you want to cite. When you click **Insert**, a file `references.bib` is created in your R Project's root directly. The `references.bib` file contains all the citations in your project, saved in BibTeX format. Every new citation that you create is added to the `references.bib` file with a tag that identifies it; here it's `@weedon2014`.
 
-<!-- -   Load the package and some data -->
+![Search DOI to create a citation and add the paper to your bibliography.](images/search_doi.png)
 
-<!-- ```{webr} -->
-<!-- library(ggplot2) -->
-<!-- ``` -->
+You can use these citation tags to add citations to your report. Writing `@weedon2014` will produce the following inline citation @weedon2014 and writing `[@weedon2014]` will produce the in-parenthesis version [@weedon2014].
 
-<!-- -   create a plot -->
-
-<!-- ```{webr} -->
-<!-- ggplot(data = mtcars, mapping = aes(x = mpg, y = hp)) + -->
-<!--   geom_point() -->
-<!-- ``` -->
-
-<!-- ::: callout-note -->
-<!-- ## Exercise -->
-
-<!-- Make a scatter plot with `hp` on the x axis and `wt` on the y axis. Label the x axis "Horse Power" and the y axis "Weight". Make one subplot for each value in `gear`. -->
-
-<!-- ```{webr} -->
-<!-- # Add you code here -->
-<!-- ``` -->
-
-<!-- Your result should look like the plot below -->
-<!-- ::: -->
-
-<!-- ::: {.callout-tip collapse="true"} -->
-<!-- ## Expected Result -->
-
-<!-- ```{r} -->
-<!-- #| echo: false -->
-<!-- library(ggplot2) -->
-<!-- ggplot(mtcars, aes(x = hp, y = wt)) + -->
-<!--   geom_point() + -->
-<!--   labs(x = "Horse Power", y = "Weight") + -->
-<!--   facet_wrap(~gear) -->
-<!-- ``` -->
-<!-- ::: -->
