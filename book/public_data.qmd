@@ -1,0 +1,180 @@
+---
+title: "Public data sources"
+---
+
+The following list contains a set of data sources to kick-start your projects. Some of these datasets are very general and will be used for multiple applications, while others contain more niche data that may spark ideas for a course project. Read through them all to take inspiration for your data analysis. Of course, there are a thousand other datasets out there!
+
+::: callout-note
+Although all of the following datasets are publicly available, a fraction of these will require you to create an account in the data provider's website and log in to download the data.
+:::
+
+1.  **ACi-TGlob_V1.0: A Global dataset of photosynthetic CO2 response curves of terrestrial plants**
+
+    ::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+    ## Dataset description
+
+    The dataset contains:
+
+    1\) raw data to parameterize key photosynthetic biochemical parameters; maximum rate of ribulose-1,5-bisphosphate carboxylase-oxygenase (Rubisco) activity (Vcmax), potential rate of electron transport (Jmax) and rate of triose phosphate export from the chloroplast (TPU),
+
+    2\) estimated Vcmax, Jmax and TPU parameter values for 141 plant species from 42 experiments conducted around the world. The database includes observations for most plant functional types (PFTs) from tropical rain forests to boreal forests and data from Arctic tundra. Site latitude ranged from 42°48' S to 71°16' N and mean annual growing season temperature ranged from 3 to 30°C.
+
+    The dataset contains raw photosynthetic CO2 response curves (ACi curves) measured at different leaf temperature temperatures, and estimated parameters (Vcmax, Jmax and TPU) and their temperature response parameters. It includes data from different types of experiments (e.g. temperature warming experiments, CO2 enrichment experiments, drought experiments) allowing examination of parameter responses to environmental drivers.
+
+    File information:
+
+    -   ACi-TGlob_V1.0.csv
+
+        The dataset containing individual ACi curves. The column "Curve_Id" contains a unique identification number for each ACi curve in the dataset that link raw ACi data to the fitted parameters. Variable description is given in ACi-TGlob_V1.0_metadata.csv.
+
+    -   ACi-TGlob_V1.0_metadata.csv.
+
+        Variable description and units of each column of ACi-TGlob_V1.0.csv
+
+    -   PPC-TGlob_V1.0.csv
+
+        The dataset containing fitted Vcmax, Jmax, TPU and Rd for each ACi curve in the ACi-TGlob_V1.0 dataset. The column "Curve_Id" contains a unique identification number corresponding for each raw ACi curve of the ACi-TGlob_V1.0 dataset. Variable description is given in PPC-TGlob_V1.0_metadata.csv
+
+    -   PPC-TGlob_V1.0_metadata.csv
+
+        Variable description and units of each column of PPC-TGlob_V1.0.csv
+    :::
+
+    -   *Kumarathunge, Medlyn, Drake, Tjoelker et al 2018. Acclimation and adaptation components of the temperature dependence of plant photosynthesis at the global scale. (New Phytologist) https://doi.org/10.1111/nph.15668*
+
+    -   <https://bitbucket.org/Kumarathunge/aci-tglob/src/master/>
+
+2.  **Global above-ground biomass carbon, Liu et al. 2015**
+
+    ::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+    ## Dataset description
+
+    Global estimates of annual average above-ground biomass carbon (ABC) for 1993-2012, based on a harmonised time series of Vegetation Optical Depth (VOD) derived from a series of satellite passive microwave instruments. Both VOD and ABC are available.
+    :::
+
+    -   *Liu, Y.Y., A.I.J.M. van Dijk, R.A.M. de Jeu, J.G. Canadell, M.F. McCabe, J.P. Evans and G. Wang (2015) Recent reversal in loss of global terrestrial biomass, Nature Climate Change 5, doi: 10.1038/NCLIMATE2581.*
+
+    -   <http://wald.anu.edu.au/data_services/data/global-above-ground-biomass-carbon-v1-0/>
+
+3.  **Climate Change Initiative Biomass**
+
+    ::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+    ## Dataset description
+
+    The primary science objective ESA's Climate Change Initiative Biomass project (Biomass_cci) is to provide global maps of above-ground biomass (Mg ha-1) for four epochs (mid 1990s, 2007-2010, 2017/2018 and 2018/2019), with these being capable of supporting quantification of biomass change.
+
+    This dataset comprises estimates of forest above-ground biomass for the years 2010, 2017 and 2018. They are derived from a combination of Earth observation data, depending on the year, from the Copernicus Sentinel-1 mission, Envisat's ASAR instrument and JAXA's Advanced Land Observing Satellite (ALOS-1 and ALOS-2), along with additional information from Earth observation sources. The data has been produced as part of the European Space Agency's (ESA's) Climate Change Initiative (CCI) programme by the Biomass CCI team. This release of the data is version 3. Compared to version 2, this is a consolidated version of the Above Ground Biomass (AGB) maps. This version also includes a preliminary estimate of AGB changes for two epochs. The data products consist of two
+
+    (2) global layers that include estimates of: 1) above ground biomass (AGB, unit: tons/ha i.e., Mg/ha) (raster dataset). This is defined as the mass, expressed as oven-dry weight of the woody parts (stem, bark, branches and twigs) of all living trees excluding stump and roots 2) per-pixel estimates of above-ground biomass uncertainty expressed as the standard deviation in Mg/ha (raster dataset). In addition, files describing the AGB change between 2018 and the other two years are provided (labelled as 2018_2010 and 2018_2017). These consist of two sets of maps: the standard deviation of the AGB change and a quality flag of the AGB change. Note that the change itself can be simply computed as the difference between two AGB maps, so is not provided directly. Data are provided in both netcdf and geotiff format.
+    :::
+
+    -   *Santoro, M.; Cartus, O. (2021): ESA Biomass Climate Change Initiative (Biomass_cci): Global datasets of forest above-ground biomass for the years 2010, 2017 and 2018, v3. NERC EDS Centre for Environmental Data Analysis, 26 November 2021. doi:10.5285/5f331c418e9f4935b8eb1b836f8a91b8.*
+
+    -   <https://catalogue.ceda.ac.uk/uuid/5f331c418e9f4935b8eb1b836f8a91b8>
+
+4.  **C4 vegetation percentage**
+
+    ::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+    # Dataset description
+
+    This data set contains one data file in ESRI ArcInfo Grid ASCII format.: c4_percent_1d.asc. The file provides the percentage of vegetation (0-100) in each 1 degree grid cell (lat./long.) which possess the C4 photosynthetic pathway. The C4 percentage is determined from data sets that describe the continuous distribution of plant growth forms (i.e., the percent of a grid cell covered by herbaceous or woody vegetation), climate classifications, the fraction of a grid cell covered in croplands, and national crop type harvest area statistics. The staff from the International Satellite Land Surface Climatology Project (ISLSCP) Initiative II have made the original data set consistent with the ISLSCP II land/water mask.
+    :::
+
+    -   *Still, C.J., J.A. Berry, G.J. Collatz, and R.S. DeFries. 2009. ISLSCP II C4 Vegetation Percentage. In Hall, Forrest G., G. Collatz, B. Meeson, S. Los, E. Brown de Colstoun, and D. Landis (eds.). ISLSCP Initiative II Collection. Data set. Available on-line \[http://daac.ornl.gov/\] from Oak Ridge National Laboratory Distributed Active Archive Center, Oak Ridge, Tennessee, USA. http://dx.doi.org/10.3334/ORNLDAAC/932*
+
+    -   <https://daac.ornl.gov/ISLSCP_II/guides/c4_percent_1deg.html>
+
+5.  **CRU TS4.05**
+
+    ::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+    # Dataset description
+
+    The gridded Climatic Research Unit (CRU) Time-series (TS) data version 4.05 data are month-by-month variations in climate over the period 1901-2020, provided on high-resolution (0.5x0.5 degree) grids, produced by CRU at the University of East Anglia and funded by the UK National Centre for Atmospheric Science (NCAS), a NERC collaborative centre.
+    :::
+
+    -   *University of East Anglia Climatic Research Unit; Harris, I.C.; Jones, P.D.; Osborn, T. (2021): CRU TS4.05: Climatic Research Unit (CRU) Time-Series (TS) version 4.05 of high-resolution gridded data of month-by-month variation in climate (Jan. 1901- Dec. 2020). NERC EDS Centre for Environmental Data Analysis, date of citation. https://catalogue.ceda.ac.uk/uuid/c26a65020a5e4b80b20018f148556681*
+
+    -   <https://data.ceda.ac.uk/badc/cru/data/cru_ts/cru_ts_4.05>
+
+6.  **S and N deposition in Europe**
+
+    ::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+    # Dataset description
+
+    Wall-to-wall tree type mapping from countrywide airborne remote sensing surveys.
+
+    The data-repository contains chemical transport model results (S- and N- deposition, and ozone) for the period 1900-2050 from the EMEP MSC-W and MATCH models, as used in the paper: Engardt, M., Simpson, D., Schwikowski, M., Granat, L., 2017. Deposition of sulfur and nitrogen in Europe 1900--2050. Model calculations and comparison to historical observations. Tellus Ser. B Chem. Phys. Meteorol. 69 (1):1328945. http://dx.doi.org/10.1080/16000889.2017.1328945.
+
+    The zip file (which unpacks to ca. 500 Mb) consists of ascii data-files for all years and many components. See the enclosed README.txt for more details.
+    :::
+
+    -   *Magnuz Engardt, David Simpson, Margit Schwikowski & Lennart Granat (2017) Deposition of sulphur and nitrogen in Europe 1900--2050. Model calculations and comparison to historical observations, Tellus B: Chemical and Physical Meteorology, 69:1, DOI: 10.1080/16000889.2017.1328945 (https://doi.org/10.1080/16000889.2017.1328945)*
+    -   <https://zenodo.org/record/4501636#.YzcRcOyA6rM>
+
+7.  **ETOPO1 Global Relief Model**
+
+    ::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+    # Dataset description
+
+    ETOPO1 is a 1 arc-minute global relief model of Earth's surface that integrates land topography and ocean bathymetry. Built from global and regional data sets, it is available in "Ice Surface" (top of Antarctic and Greenland ice sheets) and "Bedrock" (base of the ice sheets). ETOPO1 Global Relief Model is used to calculate the Volumes of the World's Oceans and to derive a Hypsographic Curve of Earth's Surface.
+    :::
+
+8.  **FLUXNET2015: Ecosystem fluxes data**
+
+    ::: {.callout-note collapse="true" appearance="minimal" icon="false"} 
+    # Dataset description
+
+    The FLUXNET2015 dataset provides ecosystem-scale data on CO2, water, and energy exchange between the biosphere and the atmosphere, and other meteorological and biological measurements, from 212 sites around the globe (over 1500 site-years, up to and including year 2014). These sites, independently managed and operated, voluntarily contributed their data to create global datasets. Data were quality controlled and processed using uniform methods, to improve consistency and intercomparability across sites. The dataset is already being used in a number of applications, including ecophysiology studies, remote sensing studies, and development of ecosystem and Earth system models. FLUXNET2015 includes derived-data products, such as gap-filled time series, ecosystem respiration and photosynthetic uptake estimates, estimation of uncertainties, and metadata about the measurements.
+    :::
+
+    - *Pastorello, G., Trotta, C., Canfora, E. et al. The FLUXNET2015 dataset and the ONEFlux processing pipeline for eddy covariance data. Sci Data 7, 225 (2020). https://doi.org/10.1038/s41597-020-0534-3*
+
+    -   https://fluxnet.org/data/fluxnet2015-dataset/
+
+9.  **Global Forest Age Dataset**
+
+    ::: {.callout-note collapse="true" appearance="minimal" icon="false"} 
+    # Dataset description
+
+    The global forest age dataset (GFAD) describes the age distributions of plant functional types (PFT) on a 0.5-degree grid. Each grid cell contains information on the fraction of each PFT within an age class. The four PFTs, needleaf evergreen (NEEV), needleleaf deciduous (NEDE), broadleaf evergreen (BREV) and broadleaf deciduous (BRDC) are mapped from the MODIS Collection 5.1 land cover dataset, crosswalking land cover types to PFT fractions. The source of data for the age distributions is from country-level forest inventory for temperate and high-latitude countries, and from biomass for tropical countries. The inventory and biomass data are related to fifteen age classes defined in ten-year intervals, from 1-10 up to a class greater than 150 years old. The GFAD dataset represents the 2000-2010 era.This abstract was quoted from original website https://doi.pangaea.de/10.1594/PANGAEA.889943Variables* lon, lat (720*360)* 4 PFTs * 15 age classesRemained issues: Some area was still in blank (e.g. South Australia, Southwest Asia) which needs further interpolation. In south Australia, it has empty values and this has been confirmed by author.
+    :::
+
+    - *Poulter, Benjamin; Aragão, Luiz; Andela, Niels; Bellassen, Valentin; Ciais, Philippe; Kato, Tomomichi; Lin, Xin; Nachin, Baatarbileg; Luyssaert, Sebastiaan; Pederson, Niel; Peylin, Philippe; Piao, Shilong; Pugh, Tom; Saatchi, Sassan; Schepaschenko, Dmitry; Schelhaas, Martjan; Shivdenko, Anatoly (2019): The global forest age dataset and its uncertainties (GFADv1.1). NASA National Aeronautics and Space Administration, PANGAEA, https://doi.org/10.1594/PANGAEA.897392*
+
+    -   https://doi.pangaea.de/10.1594/PANGAEA.897392
+
+10. ::: {.callout-note collapse="true" appearance="minimal" icon="false"} \# Dataset description
+
+    :::
+
+    -   
+
+    -   
+
+11. ::: {.callout-note collapse="true" appearance="minimal" icon="false"} \# Dataset description
+
+    :::
+
+    -   
+
+    -   
+
+12. ::: {.callout-note collapse="true" appearance="minimal" icon="false"} \# Dataset description
+
+    :::
+
+    -   
+
+    -   
+
+13. ::: {.callout-note collapse="true" appearance="minimal" icon="false"} \# Dataset description
+
+    :::
+
+    -   
+
+    -   
+
+14. ::: {.callout-note collapse="true" appearance="minimal" icon="false"} \# Dataset description
+
+    :::
