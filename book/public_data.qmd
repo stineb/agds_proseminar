@@ -6,7 +6,7 @@ Here we introduce a set of data sources to kick-start your projects. Some of the
 
 Below we list some useful datasets, with brief descriptions and links to the data and its documentation. Read through them all to take inspiration for your data analysis. Of course, there are a thousand other datasets out there!
 
-This [table from the AGDS book](https://geco-bern.github.io/agds/openscience.html#data-retention) contains some widely used data repositories, which ensure long-term storage of very varied data. You can browse through their websites to search for data that you are missing for your project implementation.
+This [table from the AGDS book](https://geco-bern.github.io/agds/openscience.html#data-retention) contains some widely used data repositories, which ensure long-term storage of very varied data. You can browse through their websites to search for data that you are missing for your project implementation, if you can't find it below.
 
 ::: callout-note
 Although all of the following datasets are publicly available, a fraction of these will require you to create an account in the data provider's website and log in to download the files.
@@ -122,6 +122,11 @@ Although all of the following datasets are publicly available, a fraction of the
 
     ETOPO1 is a 1 arc-minute global relief model of Earth's surface that integrates land topography and ocean bathymetry. Built from global and regional data sets, it is available in "Ice Surface" (top of Antarctic and Greenland ice sheets) and "Bedrock" (base of the ice sheets). ETOPO1 Global Relief Model is used to calculate the Volumes of the World's Oceans and to derive a Hypsographic Curve of Earth's Surface.
     :::
+    
+    - *NOAA National Geophysical Data Center. 2009: ETOPO1 1 Arc-Minute Global Relief Model. NOAA National Centers for Environmental Information. Accessed [date].*
+    
+      *Amante, C. and B.W. Eakins, 2009. ETOPO1 1 Arc-Minute Global Relief Model: Procedures, Data Sources and Analysis. NOAA Technical Memorandum NESDIS NGDC-24. National Geophysical Data Center, NOAA. doi:10.7289/V5C8276M [access date]*
+    - <https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ngdc.mgg.dem:316>
 
 8.  **FLUXNET2015: Ecosystem fluxes data**
 
@@ -133,52 +138,220 @@ Although all of the following datasets are publicly available, a fraction of the
 
     - *Pastorello, G., Trotta, C., Canfora, E. et al. The FLUXNET2015 dataset and the ONEFlux processing pipeline for eddy covariance data. Sci Data 7, 225 (2020). https://doi.org/10.1038/s41597-020-0534-3*
 
-    -   https://fluxnet.org/data/fluxnet2015-dataset/
+    - <https://fluxnet.org/data/fluxnet2015-dataset/>
 
 9.  **Global Forest Age Dataset**
 
     ::: {.callout-note collapse="true" appearance="minimal" icon="false"} 
     # Dataset description
 
-    The global forest age dataset (GFAD) describes the age distributions of plant functional types (PFT) on a 0.5-degree grid. Each grid cell contains information on the fraction of each PFT within an age class. The four PFTs, needleaf evergreen (NEEV), needleleaf deciduous (NEDE), broadleaf evergreen (BREV) and broadleaf deciduous (BRDC) are mapped from the MODIS Collection 5.1 land cover dataset, crosswalking land cover types to PFT fractions. The source of data for the age distributions is from country-level forest inventory for temperate and high-latitude countries, and from biomass for tropical countries. The inventory and biomass data are related to fifteen age classes defined in ten-year intervals, from 1-10 up to a class greater than 150 years old. The GFAD dataset represents the 2000-2010 era.This abstract was quoted from original website https://doi.pangaea.de/10.1594/PANGAEA.889943Variables* lon, lat (720*360)* 4 PFTs * 15 age classesRemained issues: Some area was still in blank (e.g. South Australia, Southwest Asia) which needs further interpolation. In south Australia, it has empty values and this has been confirmed by author.
+    The global forest age dataset (GFAD) describes the age distributions of plant functional types (PFT) on a 0.5-degree grid. Each grid cell contains information on the fraction of each PFT within an age class. The four PFTs, needleaf evergreen (NEEV), needleleaf deciduous (NEDE), broadleaf evergreen (BREV) and broadleaf deciduous (BRDC) are mapped from the MODIS Collection 5.1 land cover dataset, crosswalking land cover types to PFT fractions. The source of data for the age distributions is from country-level forest inventory for temperate and high-latitude countries, and from biomass for tropical countries. The inventory and biomass data are related to fifteen age classes defined in ten-year intervals, from 1-10 up to a class greater than 150 years old. The GFAD dataset represents the 2000-2010 era.
+    
+    Variables:
+    - lon, lat (720*360)
+    - 4 PFTs 
+    - 15 age classes
+    
+    Remained issues: 
+    Some area was still in blank (e.g. South Australia, Southwest Asia) which needs further interpolation. In south Australia, it has empty values and this has been confirmed by author.
     :::
 
     - *Poulter, Benjamin; Aragão, Luiz; Andela, Niels; Bellassen, Valentin; Ciais, Philippe; Kato, Tomomichi; Lin, Xin; Nachin, Baatarbileg; Luyssaert, Sebastiaan; Pederson, Niel; Peylin, Philippe; Piao, Shilong; Pugh, Tom; Saatchi, Sassan; Schepaschenko, Dmitry; Schelhaas, Martjan; Shivdenko, Anatoly (2019): The global forest age dataset and its uncertainties (GFADv1.1). NASA National Aeronautics and Space Administration, PANGAEA, https://doi.org/10.1594/PANGAEA.897392*
 
-    -   https://doi.pangaea.de/10.1594/PANGAEA.897392
+    - <https://doi.pangaea.de/10.1594/PANGAEA.897392>
 
-10. ::: {.callout-note collapse="true" appearance="minimal" icon="false"} \# Dataset description
+10. **Downscaled GOME-2 SIF**
+
+    ::: {.callout-note collapse="true" appearance="minimal" icon="false"} 
+    # Dataset description
+
+    A dataset of sun-induced fluorescence (SIF) retrieved from the GOME-2 instrument and spatially downscaled to 0.05 decimal degrees with a semi-empirical light-use efficiency model. The dataset consists of two separate products based each on a different SIF retrieval, either JJ (Joiner et al. 2013) or PK (Köhler et al. 2015). The temporal coverage of the dataset is 2007 to 2018. The temporal sampling of the product is 8 days, but every record is based on SIF input data retrieved over a 16-day moving window. The day reported in the NetCDF file corresponds to the 9th day of the 16-day retrieval period.
+    :::
+
+    -   *Duveiller, G., Filipponi, F., Walther, S., Köhler, P., Frankenberg, C., Guanter, L., and Cescatti, A.: A spatially downscaled sun-induced fluorescence global product for enhanced monitoring of vegetation productivity, Earth Syst. Sci. Data, 12, 1101–1116, https://doi.org/10.5194/essd-12-1101-2020, 2020.*
+
+    -  <https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/ECOCLIM/Downscaled-GOME2-SIF/v2.0/>
+
+11. **GOSIF: A Global, 0.05-Degree Product of Solar-Induced Chlorophyll Fluorescence Derived from OCO-2, MODIS, and Reanalysis Data**
+    
+    ::: {.callout-note collapse="true" appearance="minimal" icon="false"} 
+    # Dataset description
+    
+    New global, OCO-2-based SIF data set (GOSIF) with high spatial and temporal resolutions (i.e., 0.05° , 8-day) using discrete OCO-2 SIF soundings, remote sensing data from the Moderate Resolution Imaging Spectroradiometer (MODIS), and meteorological reanalysis data. Our SIF estimates are highly correlated with GPP from 91 FLUXNET sites (R2 = 0.73, p < 0.001). Compared with the coarse-resolution SIF data that are directly aggregated from OCO-2 soundings, GOSIF has finer spatial resolution, globally continuous coverage, and a much longer record. GOSIF is useful for assessing terrestrial photosynthesis and ecosystem function and benchmarking terrestrial biosphere and Earth system models. The methodology, validation, and spatial and temporal patterns of this product are described in the paper (Li and Xiao, 2019).
+    
+    OCO-2 based SIF product (GOSIF) was produced by a data-driven approach which established multivariate linear regression models between SIF from discrete OCO-2 soundings and a set of explanatory variables including EVI from the Moderate Resolution Imaging Spectroradiometer (MODIS) and meteorological variables (photosynthetically active radiation or PAR, air temperature, and vapor pressure deficit or VPD) from the Modern-Era Retrospective analysis for Research and Applications (MERRA-2) (Li and Xiao, 2019a).
+    
+    More information: http://data.globalecology.unh.edu/data/GOSIF_v2/8day/Data_Use_Policy_and_Readme_GOSIF_v2.pdf
+    :::
+
+    - *Li, X., Xiao, J. (2019) A global, 0.05-degree product of solar-induced chlorophyll fluorescence derived from OCO-2, MODIS, and reanalysis data. Remote Sensing, 11, 517; doi:10.3390/rs11050517. [https://www.mdpi.com/2072-4292/11/5/517]*
+
+    - <https://data.globalecology.unh.edu/data/GOSIF_v2/8day/>
+
+12. **G-RUN: Global Runoff  Reconstruction**
+
+    ::: {.callout-note collapse="true" appearance="minimal" icon="false"} 
+    # Dataset description
+    
+    The dataset contains a gridded global reconstruction of monthly runoff timeseries. In-situ streamflow observations from the GSIM dataset are used to train a machine learning algorithm that predicts monthly runoff rates based on antecedent precipitation and temperature from the Global Soil Wetness Project Phase 3 (GSWP3) meteorological forcing dataset. The data are provided in NetCDFv4 format at monthly resolution covering the period 1902-2014. 
+    
+    The GRUN reconstruction ("GRUN_v1_GSWP3_WGS84_05_1902_2014.nc" file) is provided on a 0.5 degrees (WGS84) grid in units of mm/day. The runoff time series correspond to the ensemble mean of 50 reconstructions obtained by training the machine learning model with different subsets of data. The individual ensemble members of the reconstruction are provided in the "Realizations_GRUN_v1_GSWP3_WGS84_05_1902_2014.zip" file.
+    :::
+
+    - *Ghiggi, G., Humphrey, V., Seneviratne, S. I., and Gudmundsson, L.: GRUN: an observation-based global gridded runoff dataset from 1902 to 2014, Earth Syst. Sci. Data, 11, 1655–1674, https://doi.org/10.5194/essd-11-1655-2019, 2019.*
+
+    - <https://figshare.com/articles/dataset/GRUN_Global_Runoff_Reconstruction/9228176>
+
+13. **Global Topographic Index**
+    
+    ::: {.callout-note collapse="true" appearance="minimal" icon="false"} 
+    # Dataset description
+
+    The topographic index is a hydrological quantity describing the propensity of the soil at landscape points to become saturated with water as a result of topographic position (i.e. not accounting for other factors such as climate that also affect soil moisture but are accounted for separately). Modern land surface models require a characterisation of the land surface hydrological regime and this parameter allows the use of the TOPMODEL hydrological model to achieve this .
+    
+    This Geographic Information System layer is intended for use as topographic ancillary files for the TOPMODEL routing model option within the Joint UK Land Environment Simulator (JULES) land surface model. The topographic index variable here is directly comparable to the compound topographic index available from United States Geological Survey's Hydro1K at 30 sec resolution. PLEASE NOTE: This dataset is a correction to a previous version which was found to contain errors (doi:10/t7d). In the previous version all pixels north of 4.57 degrees south were shifted consistently 9.3 km to the west. This version is correctly aligned at all points.
+    :::
+
+    - *Marthews, T. R., Dadson, S. J., Lehner, B., Abele, S., and Gedney, N.: High-resolution global topographic index values for use in large-scale hydrological modelling, Hydrol. Earth Syst. Sci., 19, 91–104, https://doi.org/10.5194/hess-19-91-2015, 2015.*
+
+    - <https://doi.org/10.5285/6b0c4358-2bf3-4924-aa8f-793d468b92be>
+
+14. **Harmonized World Soil Database**
+
+    ::: {.callout-note collapse="true" appearance="minimal" icon="false"} 
+    # Dataset description
+    
+    The HWSD is a 30 arc-second raster database with over 16000 different soil mapping units that combines existing regional and national updates of soil information worldwide (SOTER, ESD, Soil Map of China, WISE) with the information contained within the 1:5 000 000 scale FAO-UNESCO Soil Map of the World (FAO, 19711981). The resulting raster database consists of 21600 rows and 43200 columns, which are linked to harmonized soil property data. The use of a standardized structure allows for the linkage of the attribute data with the raster map to display or query the composition in terms of soil units and the characterization of selected soil parameters (organic Carbon, pH, water storage capacity, soil depth, cation exchange capacity of the soil and the clay fraction, total exchangeable nutrients, lime and gypsum contents, sodium exchange percentage, salinity, textural class and granulometry). 
+
+    Data can be downloaded following the instructions of the instructions of the [rhwsd R package usage](https://github.com/dlebauer/rhwsd/) or from the link below.
+    :::
+    
+    - *FAO/IIASA/ISRIC/ISSCAS/JRC, 2012. Harmonized World Soil Database (version 1.2). FAO, Rome, Italy and IIASA, Laxenburg, Austria.*
+    - <https://webarchive.iiasa.ac.at/Research/LUC/External-World-soil-database/HTML/HWSD_Data.html>
+    
+15. **Global Map of Irrigation Areas**
+
+    ::: {.callout-note collapse="true" appearance="minimal" icon="false"} 
+    # Dataset description
+    
+    The latest version of the "Global Map of Irrigation Areas" is version 5, which can be downloaded from this page. The documentation of the map includes an explanation of the methodology, information per country, an assessment of the map quality, and references to the background and history of the irrigation mapping project.
+
+    The map shows the amount of area equipped for irrigation around the year 2005 in percentage of the total area on a raster with a resolution of 5 minutes. Additional map layers show the percentage of the area equipped for irrigation that was actually used for irrigation and the percentages of the area equipped for irrigation that was irrigated with groundwater, surface water or non-conventional sources of water. An explanation of the different terminology to indicate areas under irrigation is given in this glossary. Please note that information for the additional layers on area actually irrigated or on the water source for irrigation was derived from statistical survey data (e.g. census reports). Therefore all grid cells belonging to the same statistical unit will have the same value. Consequently, the accuracy at pixel level will be very limited, depending on the size of the statistical unit.
+    
+    Files:
+    
+    - gmia_v5_aei_pct.asc : Area equipped for irrigation expressed as percentage of total area (2.3 MB ASCII-grid, values have a precision of 6 decimals)
+    - gmia_v5_aai_pct_aei.asc : Area actually irrigated expressed as percentage of area equipped for irrigation (0.92 MB ASCII-grid, values have a precision of 6 decimals)
+    
+    Projection:        Geographic
+    
+    Number of columns:        4320
+    
+    Number of rows:        2160
+    
+    North Bounding Coordinate:        90 degrees
+    
+    East Bounding Coordinate:        180 degrees
+    
+    South Bounding Coordinate:        -90 degrees
+    
+    West Bounding Coordinate:        -180 degrees
+    
+    Cellsize:        5 minutes, 0.083333 decimal degrees
+    
+    NODATA values:        Cells without irrigation are characterised by NODATA (-9), it does not mean that there was no data for these cells
 
     :::
 
-    -   
+    - *Siebert, S., Döll, P., Hoogeveen, J., Faures, J.-M., Frenken, K., Feick, S. (2005): Development and validation of the global map of irrigation areas. Hydrology and Earth System Sciences, 9, 535-547. (http://www.fao.org/3/I9245EN/i9245en.pdf)*
+    - <http://www.fao.org/aquastat/en/geospatial-information/global-maps-irrigated-areas/latest-version/>
+    
+16. **Köppen-Geiger climate classification maps**
 
-    -   
+    ::: {.callout-note collapse="true" appearance="minimal" icon="false"} 
+    # Dataset description
 
-11. ::: {.callout-note collapse="true" appearance="minimal" icon="false"} \# Dataset description
+    New global maps of the Köppen-Geiger climate classification at an unprecedented 1-km resolution for the present day (1980–2016) and for projected future conditions (2071–2100) under climate change. The maps are stored in GeoTIFF format as unsigned 8-bit integers. We also provide a legend file (legend.txt) linking the numeric values in the maps to the Köppen-Geiger climate symbols.
+    :::
+    
+    - *Beck, H.E., N.E. Zimmermann, T.R. McVicar, N. Vergopolan, A. Berg, E.F. Wood: Present and future Köppen-Geiger climate classification maps at 1-km resolution, Scientific Data 5:180214, doi:10.1038/sdata.2018.214 (2018).*
+    - <https://doi.org/10.6084/m9.figshare.6396959>
+    
+17. **WISE Soil Property Databases**
+
+    ::: {.callout-note collapse="true" appearance="minimal" icon="false"} 
+    # Dataset description
+
+    WISE derived soil properties on a 30 by 30 arc-seconds global gridThis harmonized dataset of derived soil properties for the world (WISE30sec) is comprised of a soil-geographical and a soil attribute component. The GIS dataset was created using the soil map unit delineations of the broad scale Harmonised World Soil Database, version 1.21, with minor corrections, overlaid by a climate zones map (Köppen-Geiger) as co-variate, and soil property estimates derived from analyses of the ISRIC-WISE soil profile database for the respective mapped ‘soil/climate’ combinations.
+    
+    The dataset considers 20 soil properties that are commonly required for global agro-ecological zoning, land evaluation, crop growth simulation, modelling of soil gaseous emissions, and analyses of global environmental change. It presents ‘best’ estimates for: organic carbon content, total nitrogen, C/N ratio, pH(H2O), CECsoil, CECclay, effective CEC, total exchangeable bases (TEB), base saturation, aluminium saturation, calcium carbonate content, gypsum content, exchangeable sodium percentage (ESP), electrical conductivity, particle size distribution (content of sand, silt and clay), proportion of coarse fragments (less than 2 mm), bulk density, and available water capacity (-33 to -1500 kPa); also the dominant soil drainage class.Soil property estimates are presented for fixed depth intervals of 20 cm up to a depth of 100 cm, respectively of 50 cm between 100 cm to 200 cm (or less when appropriate) for so-called ‘synthetic’ profiles’ (as defined by their ‘soil/climate’ class). The respective soil property estimates were derived from statistical analyses of data for some 21,000 soil profiles managed in a working copy of the ISRIC-WISE database; this was done using an elaborate scheme of taxonomy-based transfer rules complemented with expert-rules that consider the ‘in-pedon’ consistency of the predictions. The type of rules used was flagged to provide an indication of the possible confidence (i.e. lineage) in the derived data.
+    
+    Best estimates for each attribute are given as means and standard deviations (STD), as calculated for the sample populations that remained upon application of a robust data outlier detection scheme. Results of the analyses can be linked to the spatial data through the unique map unit (grid cell) identifier, which is a combination of the soil unit and climate class code. Most map units are comprised of up to ten different components; each of these with their own range of derived soil properties and associated statistical uncertainties.
+    
+    Estimates of global soil organic carbon (SOC) stocks to 200 cm are presented in the technical documentation as an example of possible application.
+    :::
+    
+    - *Batjes NH 2016. Harmonised soil property values for broad-scale modelling (WISE30sec) with estimates of global soil carbon stocks. Geoderma 2016(269), 61-68 ( http://dx.doi.org/10.1016/j.geoderma.2016.01.034 , with supplemental information (ISRIC Report 2015/01)).*
+    - <https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/dc7b283a-8f19-45e1-aaed-e9bd515119bc>
+    
+18. 
+
+    ::: {.callout-note collapse="true" appearance="minimal" icon="false"} 
+    # Dataset description
 
     :::
+    
+    -
+    -
+    
+19. 
 
-    -   
-
-    -   
-
-12. ::: {.callout-note collapse="true" appearance="minimal" icon="false"} \# Dataset description
-
-    :::
-
-    -   
-
-    -   
-
-13. ::: {.callout-note collapse="true" appearance="minimal" icon="false"} \# Dataset description
+    ::: {.callout-note collapse="true" appearance="minimal" icon="false"} 
+    # Dataset description
 
     :::
+    
+    -
+    -
+    
+20. 
 
-    -   
-
-    -   
-
-14. ::: {.callout-note collapse="true" appearance="minimal" icon="false"} \# Dataset description
+    ::: {.callout-note collapse="true" appearance="minimal" icon="false"} 
+    # Dataset description
 
     :::
+    
+    -
+    -
+    
+21. 
+
+    ::: {.callout-note collapse="true" appearance="minimal" icon="false"} 
+    # Dataset description
+
+    :::
+    
+    -
+    -
+
+22. 
+
+    ::: {.callout-note collapse="true" appearance="minimal" icon="false"} 
+    # Dataset description
+
+    :::
+    
+    -
+    -
+    
+23. 
+
+    ::: {.callout-note collapse="true" appearance="minimal" icon="false"} 
+    # Dataset description
+
+    :::
+    
+    -
+    -
+    
+
