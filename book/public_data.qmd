@@ -4,7 +4,7 @@ title: "Public data sources"
 
 Here we introduce a set of data sources to kick-start your projects. Some of these datasets are very general and will be used for multiple applications, while others contain more niche data that may spark ideas for a course project. 
 
-Below we list some useful datasets, with brief descriptions and links to the data and its documentation. Read through them all to take inspiration for your data analysis. Of course, there are a thousand other datasets out there!
+Below we list some useful datasets, with brief descriptions and links to the data and its documentation (follow the references for more details). Read through them all to take inspiration for your data analysis. Of course, there are a thousand other datasets out there!
 
 This [table from the AGDS book](https://geco-bern.github.io/agds/openscience.html#data-retention) contains some widely used data repositories, which ensure long-term storage of very varied data. You can browse through their websites to search for data that you are missing for your project implementation, if you can't find it below.
 
@@ -294,64 +294,194 @@ Although all of the following datasets are publicly available, a fraction of the
     - *Batjes NH 2016. Harmonised soil property values for broad-scale modelling (WISE30sec) with estimates of global soil carbon stocks. Geoderma 2016(269), 61-68 ( http://dx.doi.org/10.1016/j.geoderma.2016.01.034 , with supplemental information (ISRIC Report 2015/01)).*
     - <https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/dc7b283a-8f19-45e1-aaed-e9bd515119bc>
     
-18. 
+18. **Global 1-km Gridded Thickness of Soil, Regolith, and Sedimentary Deposit Layers**
+
+    ::: {.callout-note collapse="true" appearance="minimal" icon="false"} 
+    # Dataset description
+    
+    This data set provides high-resolution estimates of the thickness of the permeable layers above bedrock (soil, regolith, and sedimentary deposits) within a global 30-arcsecond (~1-km) grid using the best available data for topography, climate, and geology as input. These data are modeled to represent estimated thicknesses by landform type for the geological present.
+    :::
+    
+    - *Pelletier, J.D., P.D. Broxton, P. Hazenberg, X. Zeng, P.A. Troch, G. Niu, Z.C. Williams, M.A. Brunke, and D. Gochis. 2016. Global 1-km Gridded Thickness of Soil, Regolith, and Sedimentary Deposit Layers. ORNL DAAC, Oak Ridge, Tennessee, USA. https://doi.org/10.3334/ORNLDAAC/1304https://doi.org/10.1002/2015MS000526*
+    - <https://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1304>
+    
+19. **GSDE - The Global Soil Dataset for Earth System Modeling**
 
     ::: {.callout-note collapse="true" appearance="minimal" icon="false"} 
     # Dataset description
 
+    A comprehensive, gridded Global Soil Dataset for use in Earth System Models (GSDE) and other applications as well. GSDE provides soil information including soil particle-size distribution, organic carbon, and nutrients, etc. and quality control information in terms of confidence level. GSDE is based on the Soil Map of the World and various regional and national soil databases, including soil attribute data and soil maps. We used a standardized data structure and data processing procedures to harmonize the data collected from various sources. We then used a soil type linkage method (i.e. taxotransfer rules) and the polygon linkage method to derive the spatial distribution of soil properties. To aggregate the attributes of different compositions of a mapping unit, we used three mapping approaches: area-weighting method, the dominant soil type method and the dominant binned soil attribute method. In the released gridded dataset, we used the area-weighting method as it will meet the demands of most applications. The dataset can be also aggregate to a lower resolution. The resolution is 30 arc-seconds (about 1 km at the equator). The vertical variation of soil property was captured by eight layers to the depth of 2.3 m (i.e. 0- 0.045, 0.045- 0.091, 0.091- 0.166, 0.166- 0.289, 0.289- 0.493, 0.493- 0.829, 0.829- 1.383 and 1.383- 2.296 m).The documentation of the dataset can be downloaded in http://globalchange.bnu.edu.cn/download/doc/worldsoil/readme.zip
     :::
     
-    -
-    -
+    - *Shangguan, W., Dai, Y., Duan, Q., Liu, B. and Yuan, H., 2014. A Global Soil Data Set for Earth System Modeling. Journal of Advances in Modeling Earth Systems, 6: 249-263 . https://doi.org/10.1002/2013MS000293*
+    - <http://globalchange.bnu.edu.cn/./research/soilw>
     
-19. 
+20. **Epica Dome C temperature reconstruction**
+
+    ::: {.callout-note collapse="true" appearance="minimal" icon="false"} 
+    # Dataset description
+    
+    Temperature record, using Deuterium as a proxy, from the EPICA (European Project for Ice Coring in Antarctica) Dome C ice core covering 0 to 800 kyr BP.
+    
+    Description available on https://vincentarelbundock.github.io/Rdatasets/doc/DAAG/edcT.html
+    
+    A data frame with 5788 observations on the following 5 variables:
+    
+    - Bag: Bag number
+    - ztop: Top depth (m)
+    - Age: Years before 1950
+    - Deuterium: Deuterium dD data
+    - dT: Temperature difference from the average of the last 1000 years ~ -54.5degC
+    :::
+    
+    - *Jouzel, J., et al. 2007. EPICA Dome C Ice Core 800KYr Deuterium Data and Temperature Estimates. IGBP PAGES/World Data Center for Paleoclimatology Data Contribution Series \# 2007-091. NOAA/NCDC Paleoclimatology Program, Boulder CO, USA.Jouzel, J., et al. 2007. Orbital and Millennial Antarctic Climate Variability over the Past 800,000 Years. Science, Vol. 317, No. 5839, pp.793-797, 10 August 2007.*
+    - <http://www.ncdc.noaa.gov/paleo/icecore/antarctica/domec/domec_epica_data.html>
+    
+21. **PAGES2k Global Common Era Mean Surface Temperature Reconstructions**
+
+    ::: {.callout-note collapse="true" appearance="minimal" icon="false"} 
+    # Dataset description
+    
+    2,000-year-long global mean temperature reconstructions using seven different statistical methods that draw from a global collection of temperature-sensitive palaeoclimate records.
+    :::
+    
+    - *PAGES 2k Consortium. Consistent multidecadal variability in global temperature reconstructions and simulations over the Common Era. Nat. Geosci. 12, 643–649 (2019). https://doi.org/10.1038/s41561-019-0400-0PAGES 2k Consortium: Raphael Neukom, Luis A. Barboza, Michael P. Erb, Feng Shi, Julien Emile-Geay, Michael N. Evans, Jörg Franke, Darrell S. Kaufman, Lucie Lücke, Kira Rehfeld, Andrew Schurer, Feng Zhu, Stefan Brönnimann, Gregory J. Hakim, Benjamin J. Henley, Fredrik Charpentier Ljungqvist, Nicholas McKay, Veronika Valler & Lucien von Gunten*
+    - <https://www1.ncdc.noaa.gov/pub/data/paleo/pages2k/neukom2019temp/>
+
+22. **Global tree height**
+
+    ::: {.callout-note collapse="true" appearance="minimal" icon="false"} 
+    # Dataset description
+    
+    Global 1km Forest Canopy Height. Regriddded to 0.05 degrees in lon and lat by bilinear interpolation.
+    :::
+    
+    - *Simard, M., Pinto, N., Fisher, J. B. & Baccini, A. Mapping forest canopy height globally with spaceborne lidar. J. Geophys. Res. 116, G04021 (2011) https://doi.org/10.1029/2011JG001708*
+    - <https://webmap.ornl.gov/wcsdown/dataset.jsp?ds_id=10023>
+    
+23. **WATCH-WFDEI meteorological forcing dataset**
 
     ::: {.callout-note collapse="true" appearance="minimal" icon="false"} 
     # Dataset description
 
+    The WFDEI meteorological forcing data set has been generated using the same methodology as the widely used WATCH Forcing Data (WFD) by making use of the ERA-Interim reanalysis data. We discuss the specifics of how changes in the reanalysis and processing have led to improvement over the WFD. We attribute improvements in precipitation and wind speed to the latest reanalysis basis data and improved downward shortwave fluxes to the changes in the aerosol corrections. Covering 1979–2012, the WFDEI will allow more thorough comparisons of hydrological and Earth System model outputs with hydrologically and phenologically relevant satellite products than using the WFD.    
     :::
     
-    -
-    -
+    - *Weedon, G. P., G. Balsamo, N. Bellouin,S. Gomes, M. J. Best, and P. Viterbo(2014), The WFDEI meteorologicalforcing data set: WATCH Forcing Datamethodology applied to ERA-Interimreanalysis data,Water Resour. Res.,50,7505–7514, doi:10.1002/2014WR015638.*
+    - <ftp://ftp.iiasa.ac.at (access with lftp)>
     
-20. 
+24. **WorldClim**
 
     ::: {.callout-note collapse="true" appearance="minimal" icon="false"} 
     # Dataset description
 
+    WorldClim is a database of high spatial resolution global weather and climate data. These data can be used for mapping and spatial modeling. The data are provided for use in research and related activities; and some specialized skill and knowledge is needed to use them (here is some help). More easily available data for the general public will soon be available here.
+
+    You can download gridded weather and climate data for historical (near current) and future conditions.
     :::
     
-    -
-    -
+    - *Fick, S.E. and R.J. Hijmans, 2017. WorldClim 2: new 1km spatial resolution climate surfaces for global land areas. International Journal of Climatology 37 (12): 4302-4315. *
+    - <https://www.worldclim.org/data/index.html>
     
-21. 
+25. ****
 
     ::: {.callout-note collapse="true" appearance="minimal" icon="false"} 
     # Dataset description
 
+    
     :::
     
-    -
-    -
-
-22. 
+    - **
+    - <>
+    
+26. ****
 
     ::: {.callout-note collapse="true" appearance="minimal" icon="false"} 
     # Dataset description
 
+    
     :::
     
-    -
-    -
+    - **
+    - <>
     
-23. 
+27. ****
 
     ::: {.callout-note collapse="true" appearance="minimal" icon="false"} 
     # Dataset description
 
+    
     :::
     
-    -
-    -
+    - **
+    - <>
+    
+28. ****
+
+    ::: {.callout-note collapse="true" appearance="minimal" icon="false"} 
+    # Dataset description
+
+    
+    :::
+    
+    - **
+    - <>
+    
+29. ****
+
+    ::: {.callout-note collapse="true" appearance="minimal" icon="false"} 
+    # Dataset description
+
+    
+    :::
+    
+    - **
+    - <>
+    
+30. ****
+
+    ::: {.callout-note collapse="true" appearance="minimal" icon="false"} 
+    # Dataset description
+
+    
+    :::
+    
+    - **
+    - <>
+    
+31. ****
+
+    ::: {.callout-note collapse="true" appearance="minimal" icon="false"} 
+    # Dataset description
+
+    
+    :::
+    
+    - **
+    - <>
+    
+32. ****
+
+    ::: {.callout-note collapse="true" appearance="minimal" icon="false"} 
+    # Dataset description
+
+    
+    :::
+    
+    - **
+    - <>
+    
+33. ****
+
+    ::: {.callout-note collapse="true" appearance="minimal" icon="false"} 
+    # Dataset description
+
+    
+    :::
+    
+    - **
+    - <>
+    
+
     
 
