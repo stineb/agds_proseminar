@@ -394,3 +394,43 @@ Although all of the following datasets are publicly available, a fraction of the
     - *Kern, S., V. Gouretski, A. Jahnke-Bornemann, R. Sadikni, F. Ament, and D. Stammer, 2015. The Integrated Climate Data Center at the Center for Earth System Research and Sustainability (CEN), University of Hamburg. DOI:10.13140/RG.2.1.1705.0086*
     
     - <https://www.cen.uni-hamburg.de/en/icdc/data.html>
+    
+26. **SoilGrids - Global gridded soil information**
+
+    ::: {.callout-note collapse="true" appearance="minimal" icon="false"} 
+    # Dataset description
+    
+    SoilGrids is a system for global digital soil mapping that uses state-of-the-art machine learning methods to map the spatial distribution of soil properties across the globe. SoilGrids prediction models are fitted using over 230 000 soil profile observations from the WoSIS database and a series of environmental covariates. Covariates were selected from a pool of over 400 environmental layers from Earth observation derived products and other environmental information including climate, land cover and terrain morphology. The outputs of SoilGrids are global soil property maps at six standard depth intervals (according to the GlobalSoilMap IUSS working group and its specifications) at a spatial resolution of 250 meters. Prediction uncertainty is quantified by the lower and upper limits of a 90% prediction interval. The additional uncertainty layer displayed at soilgrids.org is the ratio between the inter-quantile range and the median. The SoilGrids maps are publicly available under the CC-BY 4.0 License.
+
+    Maps of the following soil properties are available: pH, soil organic carbon content, bulk density, coarse fragments content, sand content, silt content, clay content, cation exchange capacity (CEC), total nitrogen as well as soil organic carbon density and soil organic carbon stock.
+    :::
+    
+    - *Poggio, L., de Sousa, L. M., Batjes, N. H., Heuvelink, G. B. M., Kempen, B., Ribeiro, E., & Rossiter, D. (2021). SoilGrids 2.0: Producing soil information for the globe with quantified spatial uncertainty. SOIL, 7(1), 217-240. DOI  10.5194/soil-7-217-2021*
+    
+    - <https://www.isric.org/explore/soilgrids>
+    
+27. **Regridded Harmonized World Soil Database**
+
+    ::: {.callout-note collapse="true" appearance="minimal" icon="false"} 
+    # Dataset description
+    
+    This data set describes select global soil parameters from the Harmonized World Soil Database (HWSD) v1.2, including additional calculated parameters such as area weighted soil organic carbon (kg C per m2), as high resolution NetCDF files. These data were regridded and upscaled from the Harmonized World Soil Database v1.2.
+
+    The HWSD provides information for addressing emerging problems of land competition for food production, bio-energy demand and threats to biodiversity and can be used as input to model global carbon cycles.
+
+    The data are presented as a series of 27 NetCDF v3/v4 (*.nc4) files at 0.05-degree spatial resolution, and one NetCDF file regridded to the Community Land Model (CLM) grid cell resolution (0.9 degree x 1.25 degree) for the nominal year of 2000.
+    :::
+    
+    - *Wieder, W.R., J. Boehnert, G.B. Bonan, and M. Langseth. 2014. Regridded Harmonized World Soil Database v1.2. Data set. Available on-line [http://daac.ornl.gov] from Oak Ridge National Laboratory Distributed Active Archive Center, Oak Ridge, Tennessee, USA. http://dx.doi.org/10.3334/ORNLDAAC/1247 . *
+    - <https://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1247>
+    
+28. **Carbon Cycle Greenhouse Gases - Global Greenhouse Gas Reference Network**
+
+    ::: {.callout-note collapse="true" appearance="minimal" icon="false"} 
+    # Dataset description
+    
+    The Global Greenhouse Gas Reference Network measures the atmospheric distribution and trends of the three main long-term drivers of climate change, carbon dioxide (CO2), methane (CH4), and nitrous oxide (N2O), as well as carbon monoxide (CO) which is an important indicator of air pollution. 
+    
+    :::
+    
+    - <https://gml.noaa.gov/ccgg/>
