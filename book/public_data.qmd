@@ -383,4 +383,14 @@ Although all of the following datasets are publicly available, a fraction of the
     - *Fick, S.E. and R.J. Hijmans, 2017. WorldClim 2: new 1km spatial resolution climate surfaces for global land areas. International Journal of Climatology 37 (12): 4302-4315. *
     - <https://www.worldclim.org/data/index.html>
     
+25. **Integrated Climate Data Center (ICDC)**
 
+    ::: {.callout-note collapse="true" appearance="minimal" icon="false"} 
+    # Dataset description
+    
+    This dataset from the Center for Earth System Research and Sustainability in the University of Hamburg is of restricted access. Each data set is described on its own page and classified in one of the four spheres of atmosphere, land, ocean, ice and snow or in the categories of climate indices or society. Each rubric page offers relevant parameters, suitable data sets and further information. The data collection is constantly under construction.
+    :::
+    
+    - *Kern, S., V. Gouretski, A. Jahnke-Bornemann, R. Sadikni, F. Ament, and D. Stammer, 2015. The Integrated Climate Data Center at the Center for Earth System Research and Sustainability (CEN), University of Hamburg. DOI:10.13140/RG.2.1.1705.0086*
+    
+    - <https://www.cen.uni-hamburg.de/en/icdc/data.html>
