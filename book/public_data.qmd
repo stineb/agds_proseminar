@@ -463,4 +463,53 @@ Although all of the following datasets are publicly available, a fraction of the
     - *Copernicus Climate Change Service, Climate Data Store, (2021): CMIP6 climate projections. Copernicus Climate Change Service (C3S) Climate Data Store (CDS). DOI: 10.24381/cds.c866074c (Accessed on DD-MMM-YYYY)*
     - <https://cds.climate.copernicus.eu/cdsapp#!/dataset/projections-cmip6>
     
+30. **WDPA: World Database on Protected Areas**
+
+    ::: {.callout-note collapse="true" appearance="minimal" icon="false"} 
+    # Dataset description
     
+    The World Database on Protected Areas (WDPA) is the most comprehensive global database of marine and terrestrial protected areas. It is a joint project between UN Environment Programme and the International Union for Conservation of Nature (IUCN), and is managed by UN Environment Programme World Conservation Monitoring Centre (UNEP-WCMC), in collaboration with governments, non-governmental organisations, academia and industry.The WDPA is updated on a monthly basis, and can be downloaded using the button in the top right of the webpage.
+    
+    :::
+    
+    - *The World Database on Protected Areas (WDPA), [insert month/year of the version downloaded], Cambridge, UK: UNEP-WCMC and IUCN.*
+    - <https://www.protectedplanet.net/en/thematic-areas/wdpa?tab=WDPA>
+    
+31. **GLEAM: Global Land Evaporation Amsterdam Model**
+
+    ::: {.callout-note collapse="true" appearance="minimal" icon="false"} 
+    # Dataset description
+    
+    The Global Land Evaporation Amsterdam Model (GLEAM) is a set of algorithms that separately estimate the different components of land evaporation (often referred to as 'evapotranspiration’): transpiration, bare-soil evaporation, interception loss, open-water evaporation and sublimation. Additionally, GLEAM provides surface and root-zone soil moisture, potential evaporation and evaporative stress conditions.
+    
+    :::
+    
+    - *Martens, B., Miralles, D.G., Lievens, H., van der Schalie, R., de Jeu, R.A.M., Fernández-Prieto, D., Beck, H.E., Dorigo, W.A., and Verhoest, N.E.C.: GLEAM v3: satellite-based land evaporation and root-zone soil moisture, Geoscientific Model Development, 10, 1903–1925, doi: 10.5194/gmd-10-1903-2017, 2017*
+    
+        *Miralles, D.G., Holmes, T.R.H., de Jeu, R.A.M., Gash, J.H., Meesters, A.G.C.A., Dolman, A.J.: Global land-surface evaporation estimated from satellite-based observations, Hydrology and Earth System Sciences, 15, 453–469, doi: 10.5194/hess-15-453-2011, 2011*
+    
+    - <https://www.gleam.eu/>
+    
+32. **HydroBASINS**
+
+    ::: {.callout-note collapse="true" appearance="minimal" icon="false"} 
+    # Dataset description
+    
+    HydroBASINS represents a series of vectorized polygon layers that depict sub-basin boundaries at a global scale. The goal of this product is to provide a seamless global coverage of consistently sized and hierarchically nested sub-basins at different scales (from tens to millions of square kilometers), supported by a coding scheme that allows for analysis of catchment topology such as up- and downstream connectivity. HydroBASINS has been extracted from the gridded HydroSHEDS core layers at 15 arc-second resolution.
+    :::
+    
+    - *Lehner, B., Grill G. (2013). Global river hydrography and network routing: baseline data and new approaches to study the world’s large river systems. Hydrological Processes, 27(15): 2171–2186. https://doi.org/10.1002/hyp.9740*
+    - <https://www.hydrosheds.org/products/hydrobasins>
+    
+33. **RCP Database**
+
+    ::: {.callout-note collapse="true" appearance="minimal" icon="false"} 
+    # Dataset description
+    
+    The RCP database aims at documenting the emissions, concentrations, and land-cover change projections of the so-called "Representative Concentration Pathways" (RCPs). Information about the RCPs and the scenario development process for the IPCC AR5 can be found in the IPCC Expert Meeting Report on New Scenarios and Moss et al. (2010).
+    
+    For a draft work plan summarizing the data exchange between the Integrated Assessment and Climate Modeling community see also the "Representative Concentration Pathways (RCPs) Draft Handshake". The final RCPs have been documented in a Special Issue of Climatic Change that was published in November 2011 (Climatic Change, Volume 109, Issue 1-2). The overview paper (van Vuuren et al, 2011) of the Special Issue summarizes the main achievements. 
+
+    :::
+     
+    - <https://tntcat.iiasa.ac.at/RcpDb/dsd?Action=htmlpage&page=welcome>
