@@ -8,7 +8,7 @@
 - There will not be a presence check. Nevertheless, in class you will have the opportunity to ask for help with your project hiccups and exchange ideas with other students. Attending the presentation and feedback sessions will be helpful to submit a successful project by the end of the seminar.
 - Maximum capacity: 30 students.
 - No email communication. Use your in person time.
-- Students are expected to master contents taught in *480094 Applied Geodata Science I*. The concepts of this course will be used throughout the projects of the AGDS Proseminar, from coding and using git to data wrangling and analysis.
+- Students are expected to master contents taught in *480094 Applied Geodata Science I*. The concepts of this course will be used throughout the projects of the Proseminar in Geocomputation and Earth Observation, from coding and using git to data wrangling and analysis.
 - You will work on your own laptops, bring them to class.
 
 ## Course structure
