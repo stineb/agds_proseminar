@@ -1,9 +1,13 @@
-# Applied Geo-Data Science Proseminar {.unnumbered}
+---
+title-block-banner: true
+---
+
+# About this course {.unnumbered}
 
 This website contains all the information related to the AGDS Proseminar. The resources used for this course, as well as course logistics, will be listed on this website.
 
 
-**Course description**
+## Course description
 
 The AGDS Proseminar ... [description of the course]
 

@@ -1,17 +1,8 @@
 # Logistics
 
-**Learning outcome**
-
-Students that complete this course should be able to:
-
-- Tell a story with data.
-- Independently implement a workflow with large geographic and environmental data in R.
-- Perform suitable data processing, visualizing, and modelling steps to support data interpretation and communication.
-- Manage analysis code for long-term reproducibility.
-
 ## General information
 
-- *Lead*: Prof. Benjamin Stocker; *Assistance*: Dr. Laura Marqués, Pepa Arán. - Geocomputation and Earth Observation group, GIUB, UniBe.
+- *Lead* : Prof. Benjamin Stocker; *Assistance* : Dr. Laura Marqués, Pepa Arán. - Geocomputation and Earth Observation group, GIUB, UniBe.
 - The course language is English.
 - Classes will take place on Wednesdays 16.15 - 18.00. This is our presence time, use it for your communication with us. 
 - There will not be a presence check. Nevertheless, in class you will have the opportunity to ask for help with your project hiccups and exchange ideas with other students. Attending the presentation and feedback sessions will be helpful to submit a successful project by the end of the seminar.
@@ -19,6 +10,15 @@ Students that complete this course should be able to:
 - No email communication. Use your in person time.
 - Students are expected to master contents taught in *480094 Applied Geodata Science I*. The concepts of this course will be used throughout the projects of the AGDS Proseminar, from coding and using git to data wrangling and analysis.
 - You will work on your own laptops, bring them to class.
+
+## Learning objectives
+
+Students that complete this course should be able to:
+
+- Tell a story with data.
+- Independently implement a workflow with large geographic and environmental data in R.
+- Perform suitable data processing, visualizing, and modelling steps to support data interpretation and communication.
+- Manage analysis code for long-term reproducibility.
 
 ## Course structure
 
@@ -48,29 +48,29 @@ There will be in total 14 sessions, scheduled as follows:
 
 **Sessions 1-4** - Project scoping
 
-- *Session 1 (20.09):* Course logistics. Introduction of the example project. Forming project groups. Checkpoint R installations and GitHub repository.
+- *Session 1 (20.09)* : Course logistics. Introduction of the example project. Forming project groups. Checkpoint R installations and GitHub repository.
 
 > Before class, follow the instructions in the first chapter of the [AGDS I book](https://geco-bern.github.io/agds/) to make sure that all the software needed for this course is installed and running. We will offer support in class, for those that encounter problems.
 
-- *Session 2 (27.09)*: Introduction of public datasets and project ideas. Short tutorial on raster data.
-- *Session 3 (04.10)*: Work on the project proposal in class and get feedback. Initial proposal due 24h after session 3 (Thursday 6pm).
-- *Session 4 (11.10)*: Receive feedback from initial proposal and implement changes. Final proposal due after session 4 (Thursday 6pm).
+- *Session 2 (27.09)* : Introduction of public datasets and project ideas. Short tutorial on raster data.
+- *Session 3 (04.10)* : Work on the project proposal in class and get feedback. Initial proposal due 24h after session 3 (Thursday 6pm).
+- *Session 4 (11.10)* : Receive feedback from initial proposal and implement changes. Final proposal due after session 4 (Thursday 6pm).
 
 **Sessions 5-9** - Project implementation
 
-- *Session 5 (17.10)*: Presentation slot allocation. Project implementation. 
-- *Session 6 (25.10)*: Project implementation.
-- *Session 7 (01.11)*: Project implementation.
-- *Session 8 (08.11)*: Project implementation.
-- *Session 9 (15.11)*: Project implementation. Groups 1-3 exchange code with each other for feedback.
+- *Session 5 (17.10)* : Presentation slot allocation. Project implementation. 
+- *Session 6 (25.10)* : Project implementation.
+- *Session 7 (01.11)* : Project implementation.
+- *Session 8 (08.11)* : Project implementation.
+- *Session 9 (15.11)* : Project implementation. Groups 1-3 exchange code with each other for feedback.
 
 **Sessions 10-14** - Presentations
 
-- *Session 10 (22.11)*: First half - Project implementation. Groups 4-6 exchange code with each other for feedback. Second half - Presentations of groups 1-3.
-- *Session 11 (29.11)*: Presentations of groups 4-6. Groups 7-9 exchange code with each other for feedback.
-- S*ession 12 (06.12)*: Presentations of groups 7-9. Groups 10-12 exchange code with each other for feedback.
-- *Session 13 (13.12)*: Presentations of groups 10-12. Groups 13-15 exchange code with each other for feedback.
-- *Session 14 (20.12)*: Presentations of groups 13-15.
+- *Session 10 (22.11)* : First half - Project implementation. Groups 4-6 exchange code with each other for feedback. Second half - Presentations of groups 1-3.
+- *Session 11 (29.11)* : Presentations of groups 4-6. Groups 7-9 exchange code with each other for feedback.
+- S*ession 12 (06.12)* : Presentations of groups 7-9. Groups 10-12 exchange code with each other for feedback.
+- *Session 13 (13.12)* : Presentations of groups 10-12. Groups 13-15 exchange code with each other for feedback.
+- *Session 14 (20.12)* : Presentations of groups 13-15.
 
 
 

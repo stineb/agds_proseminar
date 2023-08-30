@@ -6,17 +6,17 @@ execute:
   freeze: auto
 
 book:
-  title: "AGDS Proseminar"
-  subtitle: "Course logistics and resources"
+  title: "Proseminar in Geocomputation and Earth Observation"
+  subtitle: "Answering geography and environmental science questions with data"
   author: "Pepa Arán"
-  date: "2023/08/16"
+  date: "2023/08/30"
   page-navigation: true
   chapters:
     - index.qmd
-    - intro.qmd
+    - logistics.qmd
+    - resources.qmd
     - public_data.qmd
     - project_ideas.qmd
-    - resources.qmd
     - citations.qmd
     - references.qmd
   favicon: "figures/favicon.ico"

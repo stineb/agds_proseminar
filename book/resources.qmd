@@ -1,5 +1,5 @@
 ---
-title: "Other resources"
+title: "Resources"
 format: html
 editor: visual
 ---
@@ -18,8 +18,17 @@ It is a pre-requisite for this course to have taken AGDS I. We encourage you to 
 
 -   [Chapter 7: Code management.](https://geco-bern.github.io/agds/codemgmt.html) Tutorial on version control using git, and how to collaborate of coding projects.
 
-The remaining chapters of the book focus more on the data wrangling and analysis. We encourage you to go back to those for consultation.
+The remaining chapters of the book focus more on the data wrangling and analysis. We encourage you to go back to those for consultation, whenever you need them for your implementation.
 
 ## Handful of Pixels
 
-The [Handful of Pixels book](https://geco-bern.github.io/handfull_of_pixels/) covers a wide range of topics, from phenology to land cover classification, using a reduced amount of data (just a handful of pixels). Most relevant for the AGDS Preseminar are its [crash course on R](https://geco-bern.github.io/handfull_of_pixels/basic_R.html) (from project management to tidy data), its roadmap to [finding good data online](https://geco-bern.github.io/handfull_of_pixels/gathering_data.html), and most importantly its tutorial on [geospatial data in R](https://geco-bern.github.io/handfull_of_pixels/geospatial_R.html). The latter includes very useful information on reading several types of geospatial data (raster and shape files), performing operations and plotting, with examples with the most used R packages.
+The [Handful of Pixels book](https://geco-bern.github.io/handfull_of_pixels/) covers a wide range of topics, from phenology to land cover classification, using a reduced amount of data (just a handful of pixels). Most relevant for the AGDS Preseminar are:
+
+-   [Crash course on R](https://geco-bern.github.io/handfull_of_pixels/basic_R.html). From project management to tidy data, it's a condensed version of some AGDS I chapters.
+
+```{=html}
+<!-- -->
+```
+-   [Roadmap to finding good data online](https://geco-bern.github.io/handfull_of_pixels/gathering_data.html), listing open source data repositories and guidelines to check the quality of data sources.
+
+-   [Tutorial on geospatial data in R](https://geco-bern.github.io/handfull_of_pixels/geospatial_R.html). This teaches important skills that were not covered in AGDS I, but will be used in most Proseminar projects. It includes very useful information on reading several types of geospatial data (raster and shape files), performing operations and plotting, with examples with the most used R packages.
