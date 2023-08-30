@@ -14,8 +14,10 @@ book:
   chapters:
     - index.qmd
     - intro.qmd
-    - basicr.qmd
-    - ggplot.qmd
+    - public_data.qmd
+    - project_ideas.qmd
+    - resources.qmd
+    - citations.qmd
     - references.qmd
   favicon: "figures/favicon.ico"
   twitter-card: true

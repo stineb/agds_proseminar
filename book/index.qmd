@@ -1,3 +1,10 @@
-# Preface {.unnumbered}
+# Applied Geo-Data Science Proseminar {.unnumbered}
 
-This website contains all the information related to the AGDS Proseminar. The resources used for this course will be listed in this website, as well as course logistics.
+This website contains all the information related to the AGDS Proseminar. The resources used for this course, as well as course logistics, will be listed on this website.
+
+
+**Course description**
+
+The AGDS Proseminar ... [description of the course]
+
+The target audience for this course are bachelor students in their 2nd or 3rd year. The successful completion of Applied Geodata Science I is required.
