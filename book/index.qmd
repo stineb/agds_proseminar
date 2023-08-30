@@ -11,4 +11,23 @@ This website contains all the information related to the AGDS Proseminar. The re
 
 The AGDS Proseminar ... [description of the course]
 
-The target audience for this course are bachelor students in their 2nd or 3rd year. The successful completion of Applied Geodata Science I is required.
+## Learning objectives
+
+Students that complete this course should be able to:
+
+- Tell a story with data.
+- Independently implement a workflow with large geographic and environmental data in R.
+- Perform suitable data processing, visualizing, and modelling steps to support data interpretation and communication.
+- Manage analysis code for long-term reproducibility.
+
+## Target audience and prerequisites
+
+The target audience for this course are Bachelor students in *Geography* at the University of Bern in their 2nd or 3rd year. 
+
+The successful completion of Applied Geodata Science I is required.
+
+
+-------
+This course is a product of the group for [Geocomputation and Earth Observation](https://geco-group.org/), Institute of Geography with contributions by Pepa Arán.
+
+![](./images/logo_unibern_squid3.png){width="30%"} ![](./images/geco_logo_fullname.png){width="30%"}

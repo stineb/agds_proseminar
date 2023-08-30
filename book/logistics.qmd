@@ -11,15 +11,6 @@
 - Students are expected to master contents taught in *480094 Applied Geodata Science I*. The concepts of this course will be used throughout the projects of the AGDS Proseminar, from coding and using git to data wrangling and analysis.
 - You will work on your own laptops, bring them to class.
 
-## Learning objectives
-
-Students that complete this course should be able to:
-
-- Tell a story with data.
-- Independently implement a workflow with large geographic and environmental data in R.
-- Perform suitable data processing, visualizing, and modelling steps to support data interpretation and communication.
-- Manage analysis code for long-term reproducibility.
-
 ## Course structure
 
 - In groups of two, you will develop a data-intensive project. You will follow a reproducible workflow and the methods introduced in AGDS I. Familiarize yourself with the content in the [AGDS I book](https://geco-bern.github.io/agds/).
