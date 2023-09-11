@@ -9,11 +9,11 @@ This website contains all the information related to the AGDS Proseminar. The re
 
 ## Course description
 
-The AGDS Proseminar ... [description of the course]
+This course is organised as a semester project in which a data science workflow, using geographical and environmental data, is implemented and presented. 
 
 ## Learning objectives
 
-Students that complete this course should be able to:
+Students that complete this course will be able to:
 
 - Tell a story with data.
 - Independently implement a workflow with large geographic and environmental data in R.
@@ -24,7 +24,7 @@ Students that complete this course should be able to:
 
 The target audience for this course are Bachelor students in *Geography* at the University of Bern in their 2nd or 3rd year. 
 
-The successful completion of Applied Geodata Science I is required.
+The successful completion of Applied Geodata Science I or equivalent expertise is required.
 
 
 -------

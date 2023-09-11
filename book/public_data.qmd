@@ -88,7 +88,7 @@ Although all of the following datasets are publicly available, a fraction of the
 
     -   <https://daac.ornl.gov/ISLSCP_II/guides/c4_percent_1deg.html>
 
-5.  **CRU TS4.05**
+5.  **CRU TS4.05 global monthly climate**
 
     ::: {.callout-note collapse="true" appearance="minimal" icon="false"}
     # Dataset description
@@ -100,7 +100,7 @@ Although all of the following datasets are publicly available, a fraction of the
 
     -   <https://data.ceda.ac.uk/badc/cru/data/cru_ts/cru_ts_4.05>
 
-6.  **S and N deposition in Europe**
+6.  **Sulphur and nitrogen deposition in Europe**
 
     ::: {.callout-note collapse="true" appearance="minimal" icon="false"}
     # Dataset description
@@ -115,7 +115,7 @@ Although all of the following datasets are publicly available, a fraction of the
     -   *Magnuz Engardt, David Simpson, Margit Schwikowski & Lennart Granat (2017) Deposition of sulphur and nitrogen in Europe 1900--2050. Model calculations and comparison to historical observations, Tellus B: Chemical and Physical Meteorology, 69:1, DOI: 10.1080/16000889.2017.1328945 (https://doi.org/10.1080/16000889.2017.1328945)*
     -   <https://zenodo.org/record/4501636#.YzcRcOyA6rM>
 
-7.  **ETOPO1 Global Relief Model**
+7.  **ETOPO1 Global Digital Elevation Model**
 
     ::: {.callout-note collapse="true" appearance="minimal" icon="false"}
     # Dataset description
@@ -128,7 +128,7 @@ Although all of the following datasets are publicly available, a fraction of the
       *Amante, C. and B.W. Eakins, 2009. ETOPO1 1 Arc-Minute Global Relief Model: Procedures, Data Sources and Analysis. NOAA Technical Memorandum NESDIS NGDC-24. National Geophysical Data Center, NOAA. doi:10.7289/V5C8276M [access date]*
     - <https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ngdc.mgg.dem:316>
 
-8.  **FLUXNET2015: Ecosystem fluxes data**
+8.  **FLUXNET2015: Ecosystem flux measurements**
 
     ::: {.callout-note collapse="true" appearance="minimal" icon="false"} 
     # Dataset description
@@ -140,7 +140,7 @@ Although all of the following datasets are publicly available, a fraction of the
 
     - <https://fluxnet.org/data/fluxnet2015-dataset/>
 
-9.  **Global Forest Age Dataset**
+9.  **Global Forest Age**
 
     ::: {.callout-note collapse="true" appearance="minimal" icon="false"} 
     # Dataset description
@@ -160,7 +160,7 @@ Although all of the following datasets are publicly available, a fraction of the
 
     - <https://doi.pangaea.de/10.1594/PANGAEA.897392>
 
-10. **Downscaled GOME-2 SIF**
+10. **Downscaled GOME-2 Sun-induced fluorescence **
 
     ::: {.callout-note collapse="true" appearance="minimal" icon="false"} 
     # Dataset description
@@ -188,7 +188,7 @@ Although all of the following datasets are publicly available, a fraction of the
 
     - <https://data.globalecology.unh.edu/data/GOSIF_v2/8day/>
 
-12. **G-RUN: Global Runoff  Reconstruction**
+12. **G-RUN: Global Runoff Reconstruction**
 
     ::: {.callout-note collapse="true" appearance="minimal" icon="false"} 
     # Dataset description
