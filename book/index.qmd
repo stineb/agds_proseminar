@@ -4,19 +4,21 @@ title-block-banner: true
 
 # About this course {.unnumbered}
 
-This website contains all the information related to the AGDS Proseminar. The resources used for this course, as well as course logistics, will be listed on this website.
+This website contains all the information related to the Proseminar in Geocomputation and Earth Observation. The resources used for this course, as well as course logistics, will be listed on this website.
 
 
 ## Course description
 
-The AGDS Proseminar ... [description of the course]
+This course is organized as a semester project in which a data science workflow, using geographical and environmental data, is implemented.
+
+The successful completion of Applied Geodata Science I, offered in the spring semester, is a prerequisite.
 
 ## Learning objectives
 
 Students that complete this course should be able to:
 
 - Tell a story with data.
-- Independently implement a workflow with large geographic and environmental data in R.
+- Independently implement a workflow with large geographic and environmental data.
 - Perform suitable data processing, visualizing, and modelling steps to support data interpretation and communication.
 - Manage analysis code for long-term reproducibility.
 
