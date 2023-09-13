@@ -4,7 +4,7 @@ title-block-banner: true
 
 # About this course {.unnumbered}
 
-This website contains all the information related to the AGDS Proseminar. The resources used for this course, as well as course logistics, will be listed on this website.
+This website contains all the information related to the Proseminar in Geocomputation and Earth Observation. The resources used for this course, as well as course logistics, will be listed on this website.
 
 
 ## Course description
@@ -16,7 +16,7 @@ This course is organised as a semester project in which a data science workflow,
 Students that complete this course will be able to:
 
 - Tell a story with data.
-- Independently implement a workflow with large geographic and environmental data in R.
+- Independently implement a workflow with large geographic and environmental data.
 - Perform suitable data processing, visualizing, and modelling steps to support data interpretation and communication.
 - Manage analysis code for long-term reproducibility.
 
