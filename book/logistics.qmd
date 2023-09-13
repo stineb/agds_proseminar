@@ -74,10 +74,10 @@ Your project must contain the following:
 ### Grading
 
 - Students hand in their work in the form of a link, sent to Prof. B. Stocker, to a git repository that contains a project proposal (`README.md`) and code for a reproducible workflow (`vignettes/report.Rmd`). Furthermore, students will present their project in class.
-<!-- - The contribution of each component to your grade is as follows: -->
-<!--   - **Project proposal** (10%). -->
-<!--   - **Report** (70%).  -->
-<!--   - **Presentation** (20%). Your presentation should introduce and motivate your question, explain how you used data to answer it, and discuss the results of your analysis and modelling. Make sure that your slides are nicely formatted, clear and informative, and that both people in the team speak. -->
+- The contribution of each component to your grade is as follows:
+  - **Project proposal** (10%). Make sure that the proposal contains the points outlined above. You will also receive input in class to polish your proposal. 
+  - **Presentation** (20%). Your presentation should introduce and motivate your question, explain how you used data to answer it, and discuss the results of your analysis and modelling. Make sure that your slides are nicely formatted, clear and informative, and that both people in the team speak.
+  - **Report** (70%). 
 - For grading the report, we consider the following criteria:
   - **Reproducibility** (25%). Make sure your RMarkdown code is reproducible and generates a html document as intended. You can check this by letting a colleague clone your git repository and run your code on their machine. If it fails, it’s not reproducible, and you won’t get points for this aspect.
   - **Workspace organisation and code** (25%). Follow the principles for workspace organisation and coding as described in the AGDS book ([here](https://geco-bern.github.io/agds/gettingstarted.html#wspmgmt) and [here](https://geco-bern.github.io/agds/programmingprimers.html#programming-basics)).
