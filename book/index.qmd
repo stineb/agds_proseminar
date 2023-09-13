@@ -4,15 +4,11 @@ title-block-banner: true
 
 # About this course {.unnumbered}
 
-This website contains all the information and additional learning resources related to the Proseminar in Geocomputation and Earth Observation.
-
 ## Course description
 
 This course is organised as a semester project in which a data science workflow, using geographical and environmental data, is implemented and presented. 
 
 ## Learning objectives
-
-Students that complete this course will be able to:
 
 - Tell a story with data.
 - Implement a workflow with large geographic and environmental data in R.
@@ -21,7 +17,7 @@ Students that complete this course will be able to:
 
 ## Target audience and prerequisites
 
-The target audience for this course are Bachelor students in *Geography* at the University of Bern in their 2nd or 3rd year. 
+Bachelor students in *Geography* at the University of Bern in their 2nd or 3rd year. 
 
 The successful completion of Applied Geodata Science I or equivalent expertise is required.
 
