@@ -9,13 +9,11 @@ This website contains all the information related to the Proseminar in Geocomput
 
 ## Course description
 
-This course is organized as a semester project in which a data science workflow, using geographical and environmental data, is implemented.
-
-The successful completion of Applied Geodata Science I, offered in the spring semester, is a prerequisite.
+This course is organised as a semester project in which a data science workflow, using geographical and environmental data, is implemented and presented. 
 
 ## Learning objectives
 
-Students that complete this course should be able to:
+Students that complete this course will be able to:
 
 - Tell a story with data.
 - Independently implement a workflow with large geographic and environmental data.
@@ -26,7 +24,7 @@ Students that complete this course should be able to:
 
 The target audience for this course are Bachelor students in *Geography* at the University of Bern in their 2nd or 3rd year. 
 
-The successful completion of Applied Geodata Science I is required.
+The successful completion of Applied Geodata Science I or equivalent expertise is required.
 
 
 -------

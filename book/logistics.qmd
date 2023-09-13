@@ -2,31 +2,30 @@
 
 ## General information
 
-- *Lead* : Prof. Benjamin Stocker; *Assistance* : Dr. Laura Marqués, Pepa Arán. - Geocomputation and Earth Observation group, GIUB, UniBe.
+- *Lead* : Prof. Benjamin Stocker; *Assistance* : Dr. Laura Marqués, Pepa Arán. - Geocomputation and Earth Observation group, Institute of Geography, University of Bern.
 - The course language is English.
 - Classes will take place on Wednesdays 16.15 - 18.00. This is our presence time, use it for your communication with us. 
-- There will not be a presence check. Nevertheless, in class you will have the opportunity to ask for help with your project hiccups and exchange ideas with other students. Attending the presentation and feedback sessions will be helpful to submit a successful project by the end of the seminar.
+- There will not be a presence check. In class you will have the opportunity to ask for help with your project hiccups and exchange ideas with other students. Attending the presentation and feedback sessions (@sec-schedule) is expected.
 - Maximum capacity: 30 students.
-- No email communication. Use your in person time.
-- Students are expected to master contents taught in *480094 Applied Geodata Science I*. The concepts of this course will be used throughout the projects of the Proseminar in Geocomputation and Earth Observation, from coding and using git to data wrangling and analysis.
+- No email communication. Use our presence time on Wednesdays for questions.
+- Students are expected to master contents taught in *480094 Applied Geodata Science I*. The concepts of this course will be used throughout the projects of this course - from coding and using git to data wrangling and analysis.
 - You will work on your own laptops, bring them to class.
 
-## Course structure
+## Course design
 
-- In groups of two, you will develop a data-intensive project. You will follow a reproducible workflow and the methods introduced in AGDS I. Familiarize yourself with the content in the [AGDS I book](https://geco-bern.github.io/agds/).
-- The project should relate to research and data in Geography and Climate Science.
-- Open data should be used and at least two data types combined for the analysis.
-- A set of example questions and data will be provided. Groups that decide to work on those will be able to start implementing the project earlier, therefore will also have earlier presentation dates.
+- In groups of two, you will conduct a simple but data-intensive small research project. The output of your project is a reproducible workflow following methods introduced in [Applied Geodata Science I](https://geco-bern.github.io/agds/) and a short presentation.
+- If you haven't followed the course [Applied Geodata Science I](https://geco-bern.github.io/agds/), it is encouraged that you either recap essential contents taught therein and partner up with a colleague who has followed the course.
+- Chose your own project content, get inspired by what you've learned in your Geography studies, and discover patterns with your own data analysis. The only requirement is that your project relates to research and data with a relation to Geography and related disciplines. You can develop you own project idea, or use our suggestions [here](@sec-topics) as a starting point. Groups that decide to work on those will be able to start implementing the project earlier, therefore will also have earlier presentation dates.
 - You should review the code from a group other than your own, try to run their code and provide them with feedback on the implementation and the project content itself. At the same time, you will receive feedback from another group, that you should implement in your own project.
 - Active participation in the presentation sessions is expected, posing questions and providing feedback for a group's presentation.
 
-## Schedule
+## Schedule {#sec-schedule}
 
 There will be in total 14 sessions, scheduled as follows:
 
-**Sessions 1-4** - Project scoping
+**Sessions 1-4** - Introduction and project scoping
 
-- *Session 1 (20.09)* : Course logistics. Introduction of the example project. Forming project groups. Checkpoint R installations and GitHub repository.
+- *Session 1 (20.09)* : Course logistics. Introduction of the example project. Forming project groups. Checkpoint: R installations and GitHub repository.
 
 > Before class, follow the instructions in the first chapter of the [AGDS I book](https://geco-bern.github.io/agds/) to make sure that all the software needed for this course is installed and running. We will offer support in class, for those that encounter problems.
 
@@ -49,8 +48,6 @@ There will be in total 14 sessions, scheduled as follows:
 - S*ession 12 (06.12)* : Presentations of groups 7-9. Groups 10-12 exchange code with each other for feedback.
 - *Session 13 (13.12)* : Presentations of groups 10-12. Groups 13-15 exchange code with each other for feedback.
 - *Session 14 (20.12)* : Presentations of groups 13-15.
-
-
 
 ## Evaluation
 
