@@ -1,8 +1,4 @@
----
-title: "How to cite"
-editor: visual
-engine: knitr
----
+# How to cite {#sec-citing}
 
 Properly citing scientific literature is crucial for good research. You should always acknowledge the work of other researchers from which you took inspiration, cite the orinigal litureature where your that describes the data you used, and provide a context citing relevant scientific literature. Here, we will shortly explain how you can compile a bibliography, directly from RStudio, and cite all the relevant papers and datasets in your report.
 
