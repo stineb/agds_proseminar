@@ -4,7 +4,7 @@ editor: visual
 engine: knitr
 ---
 
-Properly citing scientific literature is crucial for good research. You should always acknowledge the work of other researchers from which you took inspiration and data for your project and provide a context citing relevant scientific literature. Here we will shortly explain how you can compile a bibliography, directly from RStudio, and cite all the relevant papers and datasets in your report.
+Properly citing scientific literature is crucial for good research. You should always acknowledge the work of other researchers from which you took inspiration, cite the orinigal litureature where your that describes the data you used, and provide a context citing relevant scientific literature. Here, we will shortly explain how you can compile a bibliography, directly from RStudio, and cite all the relevant papers and datasets in your report.
 
 All papers, books, datasets, code bases, etc. have an associated Digital Object Identifier (DOI). You can use it to search for publications online, but also to easily add citations to your project report - and future research output.
 
@@ -23,4 +23,3 @@ Next, click on **From DOI** and paste the DOI associated with the paper, book or
 ![Search DOI to create a citation and add the paper to your bibliography.](images/search_doi.png)
 
 You can use these citation tags to add citations to your report. Writing `@weedon2014` will produce the following inline citation @weedon2014 and writing `[@weedon2014]` will produce the in-parenthesis version [@weedon2014].
-

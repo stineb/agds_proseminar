@@ -4,12 +4,12 @@ title: "Public data sources"
 
 Here we introduce a set of data sources to kick-start your projects. Some of these datasets are very general and will be used for multiple applications, while others contain more niche data that may spark ideas for a course project. 
 
-Below we list some useful datasets, with brief descriptions and links to the data and its documentation (follow the references for more details). Read through them all to take inspiration for your data analysis. Of course, there are a thousand other datasets out there!
+Below you'll find a list of useful datasets in no particular order, with brief descriptions and links to the data and its documentation (follow the references for more details). This list is inspired by what we commonly use for research in the group for [Geocomputation and Earth Observation](https://geco-group.org/). Of course, there are a thousand other datasets out there!
 
-This [table from the AGDS book](https://geco-bern.github.io/agds/openscience.html#data-retention) contains some widely used data repositories, which ensure long-term storage of very varied data. You can browse through their websites to search for data that you are missing for your project implementation, if you can't find it below.
+This [table from the AGDS book](https://geco-bern.github.io/agds/openscience.html#data-retention) contains some widely used environmental data *repositories*, which ensure long-term storage of diverse data. You can browse through their websites to search for data that you are missing for your project implementation, if you can't find it below.
 
 ::: callout-note
-Although all of the following datasets are publicly available, a fraction of these will require you to create an account in the data provider's website and log in to download the files.
+Although all of the following datasets are publicly available, a fraction of them will require you to create an account in the data provider's website and log in to download the files.
 :::
 
 1.  **ACi-TGlob_V1.0: A Global dataset of photosynthetic CO2 response curves of terrestrial plants**

@@ -8,7 +8,7 @@ execute:
 book:
   title: "Proseminar in Geocomputation and Earth Observation"
   subtitle: "Answering geography and environmental science questions with data"
-  author: "Pepa Arán"
+  author: "Pepa Arán and Benjamin Stocker"
   date: "2023/08/30"
   page-navigation: true
   chapters:

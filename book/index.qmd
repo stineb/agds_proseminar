@@ -4,8 +4,7 @@ title-block-banner: true
 
 # About this course {.unnumbered}
 
-This website contains all the information related to the AGDS Proseminar. The resources used for this course, as well as course logistics, will be listed on this website.
-
+This website contains all the information and additional learning resources related to the Proseminar in Geocomputation and Earth Observation.
 
 ## Course description
 
@@ -16,7 +15,7 @@ This course is organised as a semester project in which a data science workflow,
 Students that complete this course will be able to:
 
 - Tell a story with data.
-- Independently implement a workflow with large geographic and environmental data in R.
+- Implement a workflow with large geographic and environmental data in R.
 - Perform suitable data processing, visualizing, and modelling steps to support data interpretation and communication.
 - Manage analysis code for long-term reproducibility.
 
@@ -28,6 +27,6 @@ The successful completion of Applied Geodata Science I or equivalent expertise i
 
 
 -------
-This course is a product of the group for [Geocomputation and Earth Observation](https://geco-group.org/), Institute of Geography with contributions by Pepa Arán.
+This course is taught by Prof. [Benjamin Stocker](https://geco-group.org/author/benjamin-stocker/) and assisted by [Dr. Laura Marques](https://geco-group.org/author/laura-marques/) and [Pepa Arán](https://geco-group.org/author/pepa-aran/). The website and collection of learning and data resources is a product of the group for [Geocomputation and Earth Observation](https://geco-group.org/), Institute of Geography, University of Bern, compiled and curated by [Pepa Arán](https://geco-group.org/author/pepa-aran/).
 
 ![](./images/logo_unibern_squid3.png){width="30%"} ![](./images/geco_logo_fullname.png){width="30%"}

@@ -1,12 +1,8 @@
----
-title: "Resources"
-format: html
-editor: visual
----
+# Resources
 
 Here we list some resources that will be useful to successfully participate in the AGDS Proseminar.
 
-## Essentials of Applied Geodata Science I
+## Essentials of Applied Geodata Science I {#sec-agds}
 
 We encourage you to review some content in the [book](https://geco-bern.github.io/agds/) used during the AGDS I course, especially to freshen up knowledge on good coding practices and project management, before you start implementing your Proseminar project. The most relevant chapters and topics include:
 
