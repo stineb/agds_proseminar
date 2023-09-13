@@ -16,7 +16,6 @@ Students that complete this course will be able to:
 
 - Tell a story with data.
 - Implement a workflow with large geographic and environmental data in R.
-- Independently implement a workflow with large geographic and environmental data.
 - Perform suitable data processing, visualizing, and modelling steps to support data interpretation and communication.
 - Manage analysis code for long-term reproducibility.
 
