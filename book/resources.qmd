@@ -20,6 +20,6 @@ The remaining chapters of the book focus more on the data wrangling and analysis
 
 The [Handful of Pixels book](https://geco-bern.github.io/handfull_of_pixels/) covers a wide range of topics, from phenology to land cover classification, using a reduced amount of data (just a handful of pixels). Most relevant for the AGDS Proseminar are:
 
--   [Crash course on R](https://geco-bern.github.io/handfull_of_pixels/basic_R.html). From project management to tidy data, it's a condensed version of some AGDS I chapters.
+-   [Crash course in R](https://geco-bern.github.io/handfull_of_pixels/basic_R.html). From project management to tidy data, it's a condensed version of some AGDS I chapters.
 -   [Roadmap to finding good data online](https://geco-bern.github.io/handfull_of_pixels/gathering_data.html), listing open source data repositories and guidelines to check the quality of data sources.
 -   [Tutorial on geospatial data in R](https://geco-bern.github.io/handfull_of_pixels/geospatial_R.html). This teaches important skills that were not covered in AGDS I, but will be used in most Proseminar projects. It includes very useful information on reading several types of geospatial data (raster and shape files), performing operations and plotting, with examples with the most used R packages.
