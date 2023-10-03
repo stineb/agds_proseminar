@@ -46,11 +46,11 @@ There will be in total 14 sessions, scheduled as follows (dates for fall semeste
 
 > Before Session 1, please make sure that essential software needed for this course is installed and running. We will offer support in class, for those that encounter problems. Essential software is (1) **R and RStudio**, follow [this](https://geco-bern.github.io/agds/gettingstarted.html#installing-r-and-rstudio), (2) **NetCDF**, follow [this](https://geco-bern.github.io/agds/gettingstarted.html#other-libraries-and-applications), (3) **git**, follow [this](https://geco-bern.github.io/agds/gettingstarted.html#git-1). Students who have completed AGDS I will have this installed and are ready to go.
 
-- *Session 2 (27.09.)* : Review of AGDS I [Chapter 1](https://geco-bern.github.io/agds/gettingstarted.html).
+- *Session 2 (27.09.)* : Introduction of public datasets and project ideas. Students self-study: AGDS I [Chapter 1](https://geco-bern.github.io/agds/gettingstarted.html).
 
-- *Session 3 (04.10.)* : [Crash course in R](https://geco-bern.github.io/handfull_of_pixels/basic_R.html) and review of AGDS I [Chapter 7](https://geco-bern.github.io/agds/codemgmt.html).
+- *Session 3 (04.10.)* : Project proposal structure and Github repository. Students self-study: [Crash course in R](https://geco-bern.github.io/handfull_of_pixels/basic_R.html) and AGDS I [Chapter 7](https://geco-bern.github.io/agds/codemgmt.html).
 
-- *Session 4 (11.10.)* : Introduction of public datasets and project ideas. Short [tutorial](https://geco-bern.github.io/handfull_of_pixels/geospatial_R.html) on raster data.
+- *Session 4 (11.10.)* : Short [tutorial](https://geco-bern.github.io/handfull_of_pixels/geospatial_R.html) on raster data.
 
 - *Session 5 (17.10.)* : Work on the project proposal in class and get feedback. Initial proposal due 24h after session 5 (Thursday 6pm).
 
