@@ -36,6 +36,33 @@ Your project must contain the following:
 - Organize your code and data into a repository (with *git*), such that other students can easily reproduce it. You will actually run each other's code, so make it understandable.
 - As the grand finale, present your work with slides. Each group will have 10 min. for their presentation, followed by 5 min for questions.
 
+## Project proposal
+
+Your proposal should be done with the following structure:
+
+**1. Summary** (max. 100 words)
+
+**2. Background and motivation**\
+*Why is your project important? What is known and unknown?*
+
+**3. Objective**\
+*Describe the goal of your project. What will be the result, answering what question?*
+
+**4. Implementation**\
+*What approach will you take to achieve the goal in terms of data and methods?*
+
+**5. Responsibilities and timeline**\
+*Who will do what (if group work)? When will you finalize what part of the implementation?*
+
+**6. Risks and contingency**\
+*What risks and challenges do you expect and what will you do to address them?*
+
+**7. Impact**\
+*How will your results answer unknowns? What are the expected scientific and societal impacts?*\
+  - *Expected scientific impact(s): e.g. contributing to specific scientific advances, across and within disciplines, reinforcing research infrastructures (databases, equipment, and instruments)*\
+  - *Expected societal impact(s): e.g. improving policies and decision-making, providing guidance for sustainable management, raising consumer awareness.*\
+Only include such impacts where your project would make a direct contribution.
+
 ## Schedule {#sec-schedule}
 
 There will be in total 14 sessions, scheduled as follows (dates for fall semester 2023):
@@ -46,11 +73,13 @@ There will be in total 14 sessions, scheduled as follows (dates for fall semeste
 
 > Before Session 1, please make sure that essential software needed for this course is installed and running. We will offer support in class, for those that encounter problems. Essential software is (1) **R and RStudio**, follow [this](https://geco-bern.github.io/agds/gettingstarted.html#installing-r-and-rstudio), (2) **NetCDF**, follow [this](https://geco-bern.github.io/agds/gettingstarted.html#other-libraries-and-applications), (3) **git**, follow [this](https://geco-bern.github.io/agds/gettingstarted.html#git-1). Students who have completed AGDS I will have this installed and are ready to go.
 
-- *Session 2 (27.09.)* : Introduction of public datasets and project ideas. Review of AGDS I [Chapter 1](https://geco-bern.github.io/agds/gettingstarted.html).
+- *Session 2 (27.09.)* : Introduction of public datasets and project ideas.\
+Students self-study: AGDS I [Chapter 1](https://geco-bern.github.io/agds/gettingstarted.html).
 
-- *Session 3 (04.10.)* : Introduction to the project proposal structure. [Crash course in R](https://geco-bern.github.io/handfull_of_pixels/basic_R.html) and review of AGDS I [Chapter 7](https://geco-bern.github.io/agds/codemgmt.html). Set up of GitHub repository for project implementation, including a brief exercise.
+- *Session 3 (04.10.)* : Project proposal structure and Github repository.\
+Students self-study: [Crash course in R](https://geco-bern.github.io/handfull_of_pixels/basic_R.html) and AGDS I [Chapter 7](https://geco-bern.github.io/agds/codemgmt.html).
 
-- *Session 4 (11.10.)* : Short [tutorial](https://geco-bern.github.io/handfull_of_pixels/geospatial_R.html) on raster data. Forming project groups.
+- *Session 4 (11.10.)* : Short [tutorial](https://geco-bern.github.io/handfull_of_pixels/geospatial_R.html) on raster data.
 
 - *Session 5 (17.10.)* : Work on the project proposal in class and get feedback. Initial proposal due 24h after session 5 (Thursday 6pm).
 
