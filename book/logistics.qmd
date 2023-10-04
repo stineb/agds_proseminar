@@ -69,7 +69,7 @@ There will be in total 14 sessions, scheduled as follows (dates for fall semeste
 
 **Sessions 1-6** - Introduction and project scoping
 
-- *Session 1 (20.09.)* : Course logistics. Introduction of the [example project](https://github.com/pepaaran/agds_proseminar_example). Forming project groups. Checkpoint: R installations and GitHub repository.
+- *Session 1 (20.09.)* : Course logistics. Introduction of the [example project](https://github.com/pepaaran/agds_proseminar_example).  Checkpoint: R installations and GitHub repository.
 
 > Before Session 1, please make sure that essential software needed for this course is installed and running. We will offer support in class, for those that encounter problems. Essential software is (1) **R and RStudio**, follow [this](https://geco-bern.github.io/agds/gettingstarted.html#installing-r-and-rstudio), (2) **NetCDF**, follow [this](https://geco-bern.github.io/agds/gettingstarted.html#other-libraries-and-applications), (3) **git**, follow [this](https://geco-bern.github.io/agds/gettingstarted.html#git-1). Students who have completed AGDS I will have this installed and are ready to go.
 
