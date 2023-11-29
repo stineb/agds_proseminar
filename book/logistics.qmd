@@ -2,39 +2,38 @@
 
 ## General information
 
-- *Lead* : Prof. Benjamin Stocker; *Assistance* : Dr. Laura Marqués, Pepa Arán. - Geocomputation and Earth Observation group, Institute of Geography, University of Bern.
-- The course language is English.
-- Classes take place on Wednesdays 16.15 - 18.00 (fall semester 2023). This is our presence time. Use it for your communication with us. 
-- There will not be a presence check. In class you will have the opportunity to ask for help with your project hiccups and exchange ideas with other students. Attending the presentation and feedback sessions (@sec-schedule) is expected.
-- Maximum capacity: 30 students.
-- No email communication. Use our presence time on Wednesdays for questions.
-- Students are expected to master contents taught in *480094 Applied Geodata Science I*. The concepts of that course will be used throughout the projects of this *Proseminar* - from coding and using *git* to data wrangling and analysis.
-- You will work on your own laptops, bring them to class. If this poses a limitation to your participation, please me (B.S.) know. 
-- To get you set up, we’ll support you with installing all the necessary software on our laptops. But please do get started with installations and setup before our first session, following this:
+-   *Lead* : Prof. Benjamin Stocker; *Assistance* : Dr. Laura Marqués, Pepa Arán. - Geocomputation and Earth Observation group, Institute of Geography, University of Bern.
+-   The course language is English.
+-   Classes take place on Wednesdays 16.15 - 18.00 (fall semester 2023). This is our presence time. Use it for your communication with us.
+-   There will not be a presence check. In class you will have the opportunity to ask for help with your project hiccups and exchange ideas with other students. Attending the presentation and feedback sessions (@sec-schedule) is expected.
+-   Maximum capacity: 30 students.
+-   No email communication. Use our presence time on Wednesdays for questions.
+-   Students are expected to master contents taught in *480094 Applied Geodata Science I*. The concepts of that course will be used throughout the projects of this *Proseminar* - from coding and using *git* to data wrangling and analysis.
+-   You will work on your own laptops, bring them to class. If this poses a limitation to your participation, please me (B.S.) know.
+-   To get you set up, we'll support you with installing all the necessary software on our laptops. But please do get started with installations and setup before our first session, following this:
 
 > Before Session 1, please make sure that essential software needed for this course is installed and running. We will offer support in class, for those that encounter problems. Essential software is (1) **R and RStudio**, follow [this](https://geco-bern.github.io/agds/gettingstarted.html#installing-r-and-rstudio), (2) **NetCDF**, follow [this](https://geco-bern.github.io/agds/gettingstarted.html#other-libraries-and-applications), (3) **git**, follow [this](https://geco-bern.github.io/agds/gettingstarted.html#git-1). Students who have completed AGDS I will have this installed and are ready to go.
 
-
 ## Course design
 
-- In groups of two, you will conduct a small and simple, but data-intensive research project. The output of your project is a reproducible workflow following methods introduced in [Applied Geodata Science I](https://geco-bern.github.io/agds/) and a short presentation.
-- If you haven't followed the course [Applied Geodata Science I](https://geco-bern.github.io/agds/), it is encouraged that you familiarise yourself with essential contents taught therein and partner up with a colleague who has followed the course. See @sec-agds for a list of most important chapters for self-study. 
-- Chose your own project content, get inspired by what you've learned in your Geography studies, and discover patterns with your own data analysis. The only requirement is that your project relates to research and data with a relation to Geography and related disciplines. You can develop you own project idea, or use our suggestions [here](@sec-topics) as a starting point. Groups that decide to work on those will be able to start implementing the project earlier, therefore will also have earlier presentation dates.
-- You should review the code from a group other than your own, try to run their code and provide them with feedback on the implementation and the project content itself. At the same time, you will receive feedback from another group, that you should implement in your own project.
-- Active participation in the presentation sessions is expected, posing questions and providing feedback for a group's presentation.
+-   In groups of two, you will conduct a small and simple, but data-intensive research project. The output of your project is a reproducible workflow following methods introduced in [Applied Geodata Science I](https://geco-bern.github.io/agds/) and a short presentation.
+-   If you haven't followed the course [Applied Geodata Science I](https://geco-bern.github.io/agds/), it is encouraged that you familiarise yourself with essential contents taught therein and partner up with a colleague who has followed the course. See @sec-agds for a list of most important chapters for self-study.
+-   Chose your own project content, get inspired by what you've learned in your Geography studies, and discover patterns with your own data analysis. The only requirement is that your project relates to research and data with a relation to Geography and related disciplines. You can develop you own project idea, or use our suggestions [here](@sec-topics) as a starting point. Groups that decide to work on those will be able to start implementing the project earlier, therefore will also have earlier presentation dates.
+-   You should review the code from a group other than your own, try to run their code and provide them with feedback on the implementation and the project content itself. At the same time, you will receive feedback from another group, that you should implement in your own project.
+-   Active participation in the presentation sessions is expected, posing questions and providing feedback for a group's presentation.
 
 ## Project scope
 
 Your project must contain the following:
 
-- Answer a research question or (re-) discover a pattern that you have studied or heard of in introductory lectures of your Geography studies. 
-- The focus is not on novelty, but on the process: Demonstrate how data is used to draw a conclusion about patterns found in nature (and the non-natural world).
-- Provide context (why important? what is known? what is unknown?) and explain how your analysis and results relates to the context and supports your conclusions.
-- Open data should be used and at least two data types should be combined for the analysis. A list of useful data sources is provided as a starting point in @sec-topics.
-- Work with the data, visualise patterns, and analyse relationships, differences, trends, etc.
-- Document the whole processing and analysis of the data, from data download to result interpretations. 
-- Organize your code and data into a repository (with *git*), such that other students can easily reproduce it. You will actually run each other's code, so make it understandable.
-- As the grand finale, present your work with slides. Each group will have 10 min. for their presentation, followed by 5 min for questions.
+-   Answer a research question or (re-) discover a pattern that you have studied or heard of in introductory lectures of your Geography studies.
+-   The focus is not on novelty, but on the process: Demonstrate how data is used to draw a conclusion about patterns found in nature (and the non-natural world).
+-   Provide context (why important? what is known? what is unknown?) and explain how your analysis and results relates to the context and supports your conclusions.
+-   Open data should be used and at least two data types should be combined for the analysis. A list of useful data sources is provided as a starting point in @sec-topics.
+-   Work with the data, visualise patterns, and analyse relationships, differences, trends, etc.
+-   Document the whole processing and analysis of the data, from data download to result interpretations.
+-   Organize your code and data into a repository (with *git*), such that other students can easily reproduce it. You will actually run each other's code, so make it understandable.
+-   As the grand finale, present your work with slides. Each group will have 10 min. for their presentation, followed by 5 min for questions.
 
 ## Project proposal
 
@@ -59,9 +58,22 @@ Your proposal should be done with the following structure:
 
 **7. Impact**\
 *How will your results answer unknowns? What are the expected scientific and societal impacts?*\
-  - *Expected scientific impact(s): e.g. contributing to specific scientific advances, across and within disciplines, reinforcing research infrastructures (databases, equipment, and instruments)*\
-  - *Expected societal impact(s): e.g. improving policies and decision-making, providing guidance for sustainable management, raising consumer awareness.*\
+- *Expected scientific impact(s): e.g. contributing to specific scientific advances, across and within disciplines, reinforcing research infrastructures (databases, equipment, and instruments)*\
+- *Expected societal impact(s): e.g. improving policies and decision-making, providing guidance for sustainable management, raising consumer awareness.*\
 Only include such impacts where your project would make a direct contribution.
+
+## Report
+
+The report will be contained as part of your repository, in the form of an `.Rmd` file in the `./vignettes` subfolder. See the [example project](https://github.com/pepaaran/agds_proseminar_example/tree/main) for how this could look like.
+
+The report should put the results in the foreground and the code in the background. Effective and clear communication of results is achieved when general principles of scientific writing are followed and the report is organised along the following line:
+
+1.  Introduction: Gives the background, explains the relevance, and motivates the (research) question. The introduction may also motivate the methodological approach, but doesn't give its details.
+2.  Methods and Data: Describes the data (scale, source, etc.) and the methods.
+3.  Results: Reports the results in a logical order that facilitates reading - from the general pattern to the details. Basic and central finding first, then the nuance.
+4.  Discussion: Explain what the results mean in relation to the question stated in the Introduction. Discuss caveats, compare to earlier findings, and explain the relevance of your results.
+
+The report for this class (Proseminar) is not supposed to be publishable science. It doesn't have to be novel. The focus is to tell a story with data. Therefore, you may implement the structure described above with some freedom. Make your report appealing, clear, and transparent.
 
 ## Schedule {#sec-schedule}
 
@@ -69,52 +81,52 @@ There will be in total 14 sessions, scheduled as follows (dates for fall semeste
 
 **Sessions 1-6** - Introduction and project scoping
 
-- *Session 1 (20.09.)* : Course logistics. Introduction of the [example project](https://github.com/pepaaran/agds_proseminar_example).  Checkpoint: R installations and GitHub repository.
+-   *Session 1 (20.09.)* : Course logistics. Introduction of the [example project](https://github.com/pepaaran/agds_proseminar_example). Checkpoint: R installations and GitHub repository.
 
 > Before Session 1, please make sure that essential software needed for this course is installed and running. We will offer support in class, for those that encounter problems. Essential software is (1) **R and RStudio**, follow [this](https://geco-bern.github.io/agds/gettingstarted.html#installing-r-and-rstudio), (2) **NetCDF**, follow [this](https://geco-bern.github.io/agds/gettingstarted.html#other-libraries-and-applications), (3) **git**, follow [this](https://geco-bern.github.io/agds/gettingstarted.html#git-1). Students who have completed AGDS I will have this installed and are ready to go.
 
-- *Session 2 (27.09.)* : Introduction of public datasets and project ideas.\
-Students self-study: AGDS I [Chapter 1](https://geco-bern.github.io/agds/gettingstarted.html).
+-   *Session 2 (27.09.)* : Introduction of public datasets and project ideas.\
+    Students self-study: AGDS I [Chapter 1](https://geco-bern.github.io/agds/gettingstarted.html).
 
-- *Session 3 (04.10.)* : Project proposal structure and Github repository.\
-Students self-study: [Crash course in R](https://geco-bern.github.io/handfull_of_pixels/basic_R.html) and AGDS I [Chapter 7](https://geco-bern.github.io/agds/codemgmt.html).
+-   *Session 3 (04.10.)* : Project proposal structure and Github repository.\
+    Students self-study: [Crash course in R](https://geco-bern.github.io/handfull_of_pixels/basic_R.html) and AGDS I [Chapter 7](https://geco-bern.github.io/agds/codemgmt.html).
 
-- *Session 4 (11.10.)* : Short [tutorial](https://geco-bern.github.io/handfull_of_pixels/geospatial_R.html) on raster data.
+-   *Session 4 (11.10.)* : Short [tutorial](https://geco-bern.github.io/handfull_of_pixels/geospatial_R.html) on raster data.
 
-- *Session 5 (17.10.)* : Work on the project proposal in class and get feedback. Initial proposal due 24h after session 5 (Thursday 6pm).
+-   *Session 5 (17.10.)* : Work on the project proposal in class and get feedback. Initial proposal due 24h after session 5 (Thursday 6pm).
 
-- *Session 6 (25.10.)* : Receive feedback from initial proposal and implement changes. Final proposal due after session 6 (Thursday 6pm).
+-   *Session 6 (25.10.)* : Receive feedback from initial proposal and implement changes. Final proposal due after session 6 (Thursday 6pm).
 
 **Sessions 7-12** - Project implementation
 
-- *Session 7 (01.11.)* : Presentation slot allocation. Project implementation in individual group work with questions, answers, and feedback in class. 
-- *Session 8 (08.11.)* : Project implementation in individual group work with questions, answers, and feedback in class.
-- *Session 9 (15.11.)* : Project implementation in individual group work with questions, answers, and feedback in class.
-- *Session 10 (22.11)* : Project implementation in individual group work with questions, answers, and feedback in class.
-- *Session 11 (29.11)* : Project implementation in individual group work with questions, answers, and feedback in class. 
-- *Session 12 (06.12)* : Project implementation in individual group work with questions, answers, and feedback in class. Groups exchange code with each other for feedback.
+-   *Session 7 (01.11.)* : Presentation slot allocation. Project implementation in individual group work with questions, answers, and feedback in class.
+-   *Session 8 (08.11.)* : Project implementation in individual group work with questions, answers, and feedback in class.
+-   *Session 9 (15.11.)* : Project implementation in individual group work with questions, answers, and feedback in class.
+-   *Session 10 (22.11)* : Project implementation in individual group work with questions, answers, and feedback in class.
+-   *Session 11 (29.11)* : Project implementation in individual group work with questions, answers, and feedback in class.
+-   *Session 12 (06.12)* : Project implementation in individual group work with questions, answers, and feedback in class. Groups exchange code with each other for feedback.
 
 **Sessions 13-14** - Presentations
 
-- *Session 13 (13.12)* : Group work to implement feedback on code.
-- *Session 14 (20.12)* : Presentations.
+-   *Session 13 (13.12)* : Group work to implement feedback on code.
+-   *Session 14 (20.12)* : Presentations.
 
 ## Evaluation
 
 Project reports and presentations are evaluated. Each pair of students will create a project and submit a GitHub repository, following the [AGDS example project](https://github.com/pepaaran/agds_proseminar_example), containing all code and a [RMarkdown](https://geco-bern.github.io/agds/gettingstarted.html#rmarkdown) file as report. At the end of the semester, each pair will present their project to the rest of the class and exchange feedback.
 
-- Students hand in their work in the form of a link, sent to Prof. B. Stocker, to a git repository that contains a project proposal (`README.md`) and code for a reproducible workflow (`vignettes/report.Rmd`). Furthermore, students will present their project in class.
-- The contribution of each component to your grade is as follows:
-  - **Presentation** (30%). Your presentation should introduce and motivate your question, explain how you used data to answer it, and discuss the results of your analysis and modelling. Make sure that your slides are nicely formatted, clear and informative, and that both people in the team speak.
-  - **Report** (70%). 
-- For grading the *report*, we consider the following criteria:
-  - **Reproducibility** (25%). Make sure your RMarkdown code is reproducible and generates a html document as intended. You can check this by letting a colleague clone your *git* repository and run your code on their machine. If it fails, it’s not reproducible, and you won’t get points for this aspect. To aid reproducibility, add text to your report that provides essential information and explanations of workflow steps, including data download, processing and analysis. 
-  - **Workspace organisation and code** (25%). Follow the principles for workspace organisation and coding as described in the AGDS book ([here](https://geco-bern.github.io/agds/gettingstarted.html#wspmgmt) and [here](https://geco-bern.github.io/agds/programmingprimers.html#programming-basics)).
-  - **Presentation** (25%). This considers the appearance of the generated html document, its text (with proper citations, see @sec-citing) and figures. Provide context, create at least three good data visualizations, and discuss your findings.
-  - **Analysis and modelling** (25%). This considers the correctness of analysis and modelling implementations, and the reasonable application of methods.
-- Each pair of students will hand in a single report. 
-- Code duplications are not permitted and affected code will be graded with zero points for the respective part of the report.
-- Reports cannot be re-submitted after having received the grades. Make sure all is reproducible before you submit.
+-   Students hand in their work in the form of a link, sent to Prof. B. Stocker, to a git repository that contains a project proposal (`README.md`) and code for a reproducible workflow (`vignettes/report.Rmd`). Furthermore, students will present their project in class.
+-   The contribution of each component to your grade is as follows:
+    -   **Presentation** (30%). Your presentation should introduce and motivate your question, explain how you used data to answer it, and discuss the results of your analysis and modelling. Make sure that your slides are nicely formatted, clear and informative, and that both people in the team speak.
+    -   **Report** (70%).
+-   For grading the *report*, we consider the following criteria:
+    -   **Reproducibility** (25%). Make sure your RMarkdown code is reproducible and generates a html document as intended. You can check this by letting a colleague clone your *git* repository and run your code on their machine. If it fails, it's not reproducible, and you won't get points for this aspect. To aid reproducibility, add text to your report that provides essential information and explanations of workflow steps, including data download, processing and analysis.
+    -   **Workspace organisation and code** (25%). Follow the principles for workspace organisation and coding as described in the AGDS book ([here](https://geco-bern.github.io/agds/gettingstarted.html#wspmgmt) and [here](https://geco-bern.github.io/agds/programmingprimers.html#programming-basics)).
+    -   **Presentation** (25%). This considers the appearance of the generated html document, its text (with proper citations, see @sec-citing) and figures. Provide context, create at least three good data visualizations, and discuss your findings.
+    -   **Analysis and modelling** (25%). This considers the correctness of analysis and modelling implementations, and the reasonable application of methods.
+-   Each pair of students will hand in a single report.
+-   Code duplications are not permitted and affected code will be graded with zero points for the respective part of the report.
+-   Reports cannot be re-submitted after having received the grades. Make sure all is reproducible before you submit.
 
 ### Note of caution
 
